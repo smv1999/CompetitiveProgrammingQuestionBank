@@ -25,4 +25,4 @@ The sample output of this program is shown below:\
 ### Searching Algorithms
 * Binary Search 
 The sample output of this program is shown below:
- ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/SearchingAlgorithm/binary_search.png)
+ ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/Searching%20Algorithm/binary_search%20.png)
