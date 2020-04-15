@@ -1,4 +1,4 @@
-# 🏆🏅🎯Competitive Programming Question Bank
+# 🎯💻Competitive Programming Question Bank🏆🏅
 This repository contains all the popular competitive programming questions.
 
 ## Popular Questions:
