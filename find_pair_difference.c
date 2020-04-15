@@ -34,6 +34,7 @@ int main(int argc, char const *argv[])
         else if(abs(a[l]-a[r])<k)
             r++;
         else{
+            
             printf("The pair is (%d, %d)",a[l],a[r]);
             break;
         }
