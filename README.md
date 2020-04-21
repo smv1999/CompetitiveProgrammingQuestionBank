@@ -29,6 +29,14 @@ The sample output of this program is shown below:\
 * Matrix Spiral\
 The sample output of this program is shown below:\
  ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/2D%20Arrays/matrix_spiral%20.png)
+ 
+### Strings
+* Super ASCII Checker\
+The sample output of this program is shown below:\
+ ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/Strings/super_ascii_checker%20.png)
+* Cyclic Palindrome\
+The sample output of this program is shown below:\
+ ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/Strings/cyclic_palindrome%20.png)
 
 ### Searching Algorithms
 * Binary Search\
