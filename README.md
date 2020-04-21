@@ -22,6 +22,14 @@ The sample output of this program is shown below:\
 The sample output of this program is shown below:\
  ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/merge_sort%20.png)
 
+### 2D Arrays
+* Matrix Rotation\
+The sample output of this program is shown below:\
+ ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/2D%20Arrays/matrix_rotation.png)
+* Matrix Spiral\
+The sample output of this program is shown below:\
+ ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/2D%20Arrays/matrix_spiral%20.png)
+
 ### Searching Algorithms
 * Binary Search\
 The sample output of this program is shown below:\
