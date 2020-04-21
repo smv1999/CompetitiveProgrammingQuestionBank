@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
     cin>>angle;
     rotate(angle);
     totalrot = totalrot + angle;
-    rotate(360 - (totalrot%360)); // to convert the rotated matrix to the original one
+    // rotate(360 - (totalrot%360)); // to convert the rotated matrix to the original one
     for(i=0;i<n;i++)
     {
         for(j=0;j<n;j++)
