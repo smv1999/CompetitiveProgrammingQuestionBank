@@ -2,7 +2,7 @@
 String Shift Operations
 -----------------------
 
-Left and Right Shift Operations
+Left and Right Shift Operations by a particular length c
 
 */
 #include<iostream>
@@ -32,5 +32,4 @@ string shiftRight(char* s,int c)
     }
     std::string st = ((string)s).substr(0, k+1);
     return  a+st;
-
 }
