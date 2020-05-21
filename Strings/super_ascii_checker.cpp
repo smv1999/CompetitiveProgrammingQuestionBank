@@ -15,8 +15,7 @@ We solve this problem using the "Bucketing Algorithm".
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    char str[200];
-    cin>>str;
+    char str[200] = "abbcccdddd";
     int len = strlen(str);
     int arr[26];
     for(int i=0;i<26;i++)
