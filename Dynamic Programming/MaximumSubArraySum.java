@@ -1,16 +1,11 @@
 import java.io.*; 
-// Java program to print largest contiguous array sum 
 import java.util.*; 
 
-class MaxSum 
-{ 
-	public static void main (String[] args) 
-	{ 
-		int [] a = {-2}; 
-		System.out.println("Maximum contiguous sum is " + 
-									maxSubArraySum(a)); 
-	} 
+// Java program to print largest contiguous array sum 
+// This problem is solved using Kadanes Algorithm
 
+class MaximumSubArraySum 
+{ 
 	static int maxSubArraySum(int a[]) 
 	{ 
 		int size = a.length; 
@@ -25,5 +20,10 @@ class MaxSum
 				max_ending_here = 0; 
 		} 
 		return max_so_far; 
+	} 
+	public static void main (String[] args) 
+	{ 
+		int [] a = {1,-2,4,-3,3,2}; 
+		System.out.println("Maximum contiguous sum is " +maxSubArraySum(a)); 
 	} 
 } 
