@@ -43,3 +43,7 @@ The sample output of this program is shown below:\
 * Binary Search\
 The sample output of this program is shown below:\
  ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/Searching%20Algorithm/binary_search%20.png)
+ 
+### Dynamic Programming
+
+### Divide and Conquer
