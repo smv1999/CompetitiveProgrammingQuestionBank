@@ -1,5 +1,5 @@
 # 🎯💻Competitive Programming Question Bank🏆🏅
-This repository contains all the popular competitive programming questions. The Programming language used for demonstration is the C Language and C++.\
+This repository contains all the popular competitive programming questions. The Programming language used for demonstration is the C Language, C++ and Java.\
  ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/General%20Questions/mainimage.png)
 
 ## Popular Questions:
