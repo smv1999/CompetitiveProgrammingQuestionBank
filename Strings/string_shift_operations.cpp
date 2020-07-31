@@ -20,6 +20,7 @@ string shiftRight(string s,int c)
 int main(int argc, char const *argv[])
 {
     cout<<shiftRight("Hello",2);
+    cout<<"\n";
     cout<<shiftLeft("Hello",2);
     return 0;
 }
