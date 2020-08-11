@@ -12,6 +12,8 @@ This repository contains all the popular competitive programming questions and i
 <ul>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/2D%20Arrays">2D Arrays</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Arrays">Arrays</a></li>
+ <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Backtracking">Backtracking</a></li>
+ <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/CodeVita%20Problems">CodeVita Problems</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Data%20Structures">Data Structures</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Divide%20and%20Conquer">Divide and Conquer</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Dynamic%20Programming">Dynamic Programming</a></li>
