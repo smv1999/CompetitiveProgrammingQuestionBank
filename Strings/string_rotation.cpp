@@ -56,6 +56,7 @@ int main() {
             }   
         }
     }
+    cout<<firstchar;
 if (((string)str).find(firstchar) != std::string::npos) {
     cout << "YES";
 }

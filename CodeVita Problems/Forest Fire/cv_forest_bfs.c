@@ -1,11 +1,3 @@
-//value varying or whenever to store a data => variable declaration // buying memory
-//print => printf("HOW TO PRINT",WHAT TO PRINT);
-//scanf()=>TO GET INPUT SCANF("how to get", where to get);
-//int => long int
-//decision making simple IF ,IF ELSE, CASCADED IF ELSE ,NESTED IF ELSE
-//to combine conditions LOGICAL => &&(AND)  ||(OR)
-//switch=>multiple entry points and single exit point , if u want early exit use break
-//loop -> repeatition of process or generation => for, while &do while
 #define TOT_ROWS 5
 #define TOT_COLS 5
 #define VISITED 1
