@@ -5,7 +5,7 @@ input
 5
 1 2 3 4 5
 3
- 
+
 output
 2
 
@@ -23,9 +23,9 @@ int binarySearch(int a[],int n,int k)
   {
     int mid = (first + last)/2;
     if(a[mid]>k)
-    last = last -1;
+    last = mid -1;
     else if(a[mid]<k)
-    first = first + 1;
+    first = mid + 1;
     else if(a[mid]==k)
       return mid;
   }
