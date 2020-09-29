@@ -48,7 +48,8 @@ void mazeSolver(int maze[TOT_ROWS][TOT_COLS])
 
 int main()
 {
-   int maze[TOT_ROWS][TOT_COLS] = { { 1, 0, 0, 0 },
+   int maze[TOT_ROWS][TOT_COLS] =
+                     { { 1, 0, 0, 0 },
                        { 1, 1, 0, 1 },
                        { 0, 1, 0, 0 },
                        { 1, 1, 1, 1 } };
