@@ -1,59 +1,39 @@
-// Given a string of parantheses, braces and square brackets. We need to check whether they are balanced.
-
-#include<iostream>
-#include<stack>
-#include<algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
+bool isBalanced(string);
 
-bool isbalanced(string s)
-{  stack<char> st;
-    char x;
+bool isBalanced(string expr)
+{
+    stack<int> st;
+    int size = expr.length();
 
-    for(int i=0;i<s.length();i++)
+    for(int i=0;i<size;i++)
     {
-        if(s[i]=='(' || s[i]=='{' || s[i]=='[')
-        {
-            st.push(s[i]);
-            continue;
+        if(expr[i] == '(' || expr[i] == '[' || expr[i] == '{'){
+            st.push(expr[i]);
         }
-         if (s.empty()) 
-         {
-           return false;
-         }
-           
-        switch (s[i])
-        {
-        case ')':
-            x = st.top();
-            st.pop();
-            if(s[i]=='{' || s[i]=='[')
-                return false;
-            break;
-        case '}':
-            x = st.top();
-            st.pop();
-            if(s[i]=='(' || s[i]=='[')
-                return false;
-            break;
-        case ']':
-            x = st.top();
-            st.pop();
-            if(s[i]=='(' || s[i]=='{')
-                return false;
-            break;
-        }
-    }
-     return st.empty();
+        else if(!st.empty() && ((st.top()=='(' && expr[i]==')') ||
+        (st.top()=='[' && expr[i]==']') || (st.top()=='{' && expr[i]=='}'))){
 
+            st.pop();
+        }
+        else return false;
+    }
+
+    return st.empty();
 }
 
-int main(int argc, char const *argv[])
-{
-    string s;
-    cin>>s;
-    
-    cout<<(isbalanced(s) ? "Yes" : "No");
-    
-    return 0;
+int main() {
+	//code
+	int t;
+	string expr;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>expr;
+	    if(isBalanced(expr))
+	        cout<<"balanced\n";
+	    else cout<<"not balanced\n";
+	}
+	return 0;
 }
