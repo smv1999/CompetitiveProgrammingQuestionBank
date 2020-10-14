@@ -1,7 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<cstdlib>
-#include<vector>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -11,49 +8,80 @@ class Node
     Node *prev;
     Node *next;
 };
+void addNode(Node **, int);
+void printList(Node *);
+void printReverseList(Node *);
+void deleteMid(Node **head, int data_to_delete);
 
 int main()
 {
-    int val, count=0;
-    Node *new_node, *head;
+    Node *head;
     head = NULL;
-    new_node = NULL;
-    while(true)
-    {
-        cin>>val;
-        if(val==-1)
-        {
-            break;
-        }
-
-        if(head==NULL)
-        {
-             head = new Node();
-             head->data = val;
-             head->prev = NULL;
-             head->next = NULL;
-        }
-        else{
-            new_node = new Node();
-            new_node->data = val;
-            Node *temp;
-            temp = head;
-            while(temp->next!=NULL)
-            {
-                temp = temp->next;
-            }
-            temp->next = new_node;
-            new_node->prev=temp;
-            new_node->next = NULL;
-        }
-        count++;
-    }
-    while(head!=NULL)
-    {
-        cout<<head->data<<" ";
-        head = head->next;
-    }
-    cout<<"\n";
-    cout<<count;
+    addNode(&head, 10);
+    addNode(&head, 20);
+    addNode(&head, 30);
+    addNode(&head, 40);
+    addNode(&head, 50);
+    printList(head);
+    deleteMid(&head, 20);
+    printList(head);
+    printReverseList(head);
     return 0;
 }
+void addNode(Node **head, int data)
+{
+    Node *new_node = new Node();
+    new_node->data = data;
+    if(*head == NULL)
+    {
+        new_node->prev = NULL;
+        new_node->next = NULL;
+        *head = new_node;
+    }
+    else{
+        Node *temp;
+        temp = *head;
+        while(temp->next!=NULL)
+        {
+            temp = temp->next;
+        }
+        temp->next = new_node;
+        new_node->prev = temp;
+    }
+}
+void printList(Node *head)
+{
+    Node *temp = head;
+    while(temp!=NULL)
+    {
+        cout<<temp->data<<" ";
+        temp = temp->next;
+    }
+    cout<<endl;
+}
+void printReverseList(Node *head)
+{
+    Node *temp = head;
+    while(temp->next!=NULL)
+    {
+        temp = temp->next;
+    }
+    while(temp!=NULL)
+    {
+        cout<<temp->data<<" ";
+        temp = temp->prev;
+    }
+    cout<<endl;
+}
+void deleteMid(Node **head, int data_to_delete)
+{
+    Node *temp = *head;
+    while(temp->data != data_to_delete){
+        temp = temp->next;
+    }
+    temp->prev->next = temp->next;
+    temp->next->prev = temp->prev;
+    free(temp);
+}
+
+
