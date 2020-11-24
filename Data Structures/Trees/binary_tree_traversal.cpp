@@ -1,40 +1,44 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 class Node
-{   public:
+{
+public:
     int data;
     Node *left, *right;
 };
 
 void inOrder(Node *root)
 {
-    if(root==NULL) return;
+    if (root == NULL)
+        return;
     inOrder(root->left);
-    cout<<root->data<<" ";
+    cout << root->data << " ";
     inOrder(root->right);
 }
 
 void preOrder(Node *root)
 {
-    if(root==NULL) return;
-    cout<<root->data<<" ";
+    if (root == NULL)
+        return;
+    cout << root->data << " ";
     preOrder(root->left);
     preOrder(root->right);
 }
 
 void postOrder(Node *root)
 {
-    if(root==NULL) return;
+    if (root == NULL)
+        return;
     postOrder(root->left);
     postOrder(root->right);
-    cout<<root->data<<" ";
+    cout << root->data << " ";
 }
 
 int main()
 {
-    Node *root=NULL, *one=NULL, *two=NULL, *three=NULL, *four=NULL;
+    Node *root = NULL, *one = NULL, *two = NULL, *three = NULL, *four = NULL;
 
     root = new Node();
     root->data = 10; // root node
@@ -49,7 +53,6 @@ int main()
     three->data = 40;
     four->data = 50;
 
-
     root->left = one;
     root->right = two;
 
@@ -57,9 +60,9 @@ int main()
     root->left->right = four;
 
     inOrder(root);
-    cout<<endl;
+    cout << endl;
     preOrder(root);
-    cout<<endl;
+    cout << endl;
     postOrder(root);
 
     return 0;
