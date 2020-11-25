@@ -4,7 +4,7 @@ This repository contains all the popular competitive programming questions and i
  [![Watchers](https://img.shields.io/github/watchers/smv1999/CompetitiveProgrammingQuestionBank?style=social)](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/watchers)
  
  <br><br>
- ![alt text](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/mainimage.png)
+![CompetitiveProgrammingQuestionBank](https://socialify.git.ci/smv1999/CompetitiveProgrammingQuestionBank/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 ## Popular Questions:
 <ul>
