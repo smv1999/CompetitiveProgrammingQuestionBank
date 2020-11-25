@@ -12,15 +12,6 @@ public class MinPathSum
         for (int j = 1; j < 4; j++) 
             a[0][j] = a[0][j-1] + a[0][j];
         
-//        for(int i=0;i<4;i++)
-//        {
-//        	for(int j=0;j<4;j++)
-//        	{
-//        		System.out.print(a[i][j]+" ");
-//        	}
-//        	System.out.println();
-//        }
-        
 		for(int i=1;i<4;i++)
 		{
 			for(int j=1;j<4;j++)

@@ -1,15 +1,15 @@
-// Finding common elements between two arrays in which the elements are distinct.
-// Eg:
+/*Finding common elements between two arrays in which the elements are distinct.
+Eg:
 
-// 1 2 3 4 5 12 8
-// 6 7 3 4 2 9  11
+1 2 3 4 5 12 8
+6 7 3 4 2 9  11
 
-// 1 2 3 4 5 8 12
-// 2 3 4 6 7 9 11
+1 2 3 4 5 8 12
+2 3 4 6 7 9 11
 
-// O/P:
-// 2 3 4 
-
+O/P:
+2 3 4 
+*/
 #include<iostream>
 #include<vector>
 #include<algorithm>

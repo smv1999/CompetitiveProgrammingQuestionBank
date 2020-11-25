@@ -1,3 +1,13 @@
+/*
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+
+For Example:
+
+Input:
+N = 5
+arr[] = {1,2,3,-2,5}
+Output: 9
+*/
 #include<stdio.h>
 #include<limits.h>
 

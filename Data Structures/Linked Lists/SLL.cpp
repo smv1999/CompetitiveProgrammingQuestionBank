@@ -1,3 +1,7 @@
+/*
+An SLL is a type of linked list in which each node consists of only two fields viz., data field and the address field.
+The address field is a pointer containing the address of the next node in the list.
+*/
 #include<iostream>
 
 using namespace std;
