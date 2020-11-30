@@ -2,7 +2,6 @@
 This repository contains all the popular competitive programming questions and interview questions. The Programming languages used for demonstration is the C Language, C++ and Java. <br><br>
  [![Followers](https://img.shields.io/github/followers/smv1999?style=social)](https://github.com/smv1999/followers)
  [![Watchers](https://img.shields.io/github/watchers/smv1999/CompetitiveProgrammingQuestionBank?style=social)](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/watchers)
- 
  <br><br>
 ![CompetitiveProgrammingQuestionBank](https://socialify.git.ci/smv1999/CompetitiveProgrammingQuestionBank/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
