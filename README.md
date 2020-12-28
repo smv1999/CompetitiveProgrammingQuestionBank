@@ -30,3 +30,6 @@ This repository contains all the popular competitive programming questions and i
 
 ## Want to Contribute to this repository?
 Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTING.md) to know more!
+
+[![Stargazers over time](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank.svg)](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank)
+
