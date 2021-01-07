@@ -1,15 +1,8 @@
 /*
-Given a Binary Tree. Check whether it is a Sum Tree or not.
-
-A Binary Tree is a Sum Tree in which value of each node x is equal to sum of nodes present in its left subtree and right subtree .
- An empty tree is also a Sum Tree as sum of an empty tree can be considered to be 0. A leaf node is also considered as a Sum Tree.
+Given a binary tree, find its level order traversal.
+Level order traversal of a tree is breadth-first traversal for the tree.
 */
-#include <iostream>
-#include <string>
-#include <vector>
-#include <queue>
-#include <sstream>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 struct Node
@@ -27,6 +20,19 @@ Node *newNode(int val)
 
     return temp;
 }
+vector<int> levelOrder(struct Node *node);
+
+void inOrder(struct Node *node)
+{
+    if (node == NULL)
+        return;
+
+    inOrder(node->left);
+    printf("%d ", node->data);
+
+    inOrder(node->right);
+}
+
 Node *buildTree(string str)
 {
     if (str.length() == 0 || str[0] == 'N')
@@ -78,11 +84,8 @@ Node *buildTree(string str)
     return root;
 }
 
-bool isSumTree(struct Node *node);
-
 int main()
 {
-
     int t;
     scanf("%d ", &t);
     while (t--)
@@ -90,27 +93,30 @@ int main()
         string s;
         getline(cin, s);
         Node *root = buildTree(s);
-        cout << isSumTree(root) << endl;
+        vector<int> res = levelOrder(root);
+        for (int i : res)
+            cout << i << " ";
+        cout << endl;
     }
-    return 1;
-}
-
-int getSum(Node *root)
-{
-    if (root == NULL)
-        return 0;
-    if (root->left == NULL && root->right == NULL)
-        return root->data;
-    else
-    {
-        if (root->data == getSum(root->left) + getSum(root->right))
-            return 2 * root->data;
-    }
-}
-
-bool isSumTree(Node *root)
-{
-    if (root->data == getSum(root) / 2)
-        return 1;
     return 0;
+}
+
+vector<int> levelOrder(Node *node)
+{
+    vector<int> res;
+    if (node == NULL)
+        return res;
+    queue<Node *> q;
+    q.push(node);
+    while (!q.empty())
+    {
+        Node *temp = q.front();
+        res.push_back(temp->data);
+        q.pop();
+        if (temp->left != NULL)
+            q.push(temp->left);
+        if (temp->right != NULL)
+            q.push(temp->right);
+    }
+    return res;
 }
