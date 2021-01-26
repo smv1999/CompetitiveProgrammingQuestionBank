@@ -37,6 +37,17 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                      **[Vaidhyanathan S M](https://www.linkedin.com/in/vaidhyanathansm/)**                                                                                    |
 
+## Contributors 
+
+✨ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/smv1999"><img src="https://avatars.githubusercontent.com/u/42896577?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width="100px;" alt=""/><br /><sub><b>smv1999</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
+
+
 
 ## Stargazers Over Time
 
