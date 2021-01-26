@@ -1,5 +1,5 @@
 ---
-name: "\U0001F680 Issue: Feature"
+name: "\U0001F680  Feature"
 about: Suggest an idea for this project
 title: ''
 labels: ''
