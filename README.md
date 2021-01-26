@@ -43,7 +43,7 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 
 
-  <td align="center"><a href="https://github.com/smv1999"><img src="https://avatars.githubusercontent.com/u/42896577?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width="100px;" alt=""/><br /><sub><b>smv1999</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
+  <td align="center"><a href="https://github.com/smv1999"><img src="https://avatars.githubusercontent.com/u/42896577?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width="100px;" alt=""/><br /><sub><b>smv1999</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
 
 
 
