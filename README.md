@@ -35,7 +35,7 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 |                                     <a href="https://github.com/smv1999"><img src="https://avatars1.githubusercontent.com/u/55796944?s=460&u=e6985588320978737a51ac23c8a624005fce5e18&v=4" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                      **[Vaidhyanathan S M](https://www.linkedin.com/in/vaidhyanathansm/)**                                                                                       |
+|                                                                                      **[Vaidhyanathan S M](https://www.linkedin.com/in/vaidhyanathansm/)**                                                                                    |
 
 
 ## Stargazers Over Time
