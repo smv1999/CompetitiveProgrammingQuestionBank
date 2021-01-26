@@ -39,9 +39,7 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 *Need help? Feel free to contact me @ vaidhyanathan.sm@gmail.com*
 
-## Contributors 
-
-<h2 align=center> Contributors ✨ </h2>
+## Contributors ✨
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
