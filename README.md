@@ -37,11 +37,13 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                      **[Vaidhyanathan S M](https://www.linkedin.com/in/vaidhyanathansm/)**                                                                                    |
 
+*Need help? Feel free to contact me @ vaidhyanathan.sm@gmail.com*
+
 ## Contributors 
 
-<h2 align=center> ✨ Contributors </h2>
+<h2 align=center> Contributors ✨ </h2>
 
-Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind is welcome! 
+Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -53,6 +55,8 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:      🚀 **Contribut
 <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/CompetitiveProgrammingQuestionBank/commits?author=" title="Code">💻</a></td>
   </tr>
 </table>
+
+🚀 **Contributions** of any kind is welcome!
 
 
 ## Stargazers Over Time
