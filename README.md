@@ -35,3 +35,5 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 [![Stargazers over time](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank.svg)](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank)
 
+## LICENSE
+This project follows the [MIT License](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/LICENSE).
