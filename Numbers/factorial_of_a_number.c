@@ -1,12 +1,17 @@
-/*Program to find the factorial of a number using recursion*/
+/* Program to find the factorial of a number using functions*/
 
 #include <stdio.h>
 int factorial_of_a_number(int n)
 {
+    int fact = 1, i;
     if (n == 0)
         return 1;
     else
-        return (n * factorial_of_a_number(n - 1));
+        for (i = 1; i <= n; i++)
+        {
+            fact = fact * i;
+        }
+    return fact;
 }
 int main()
 {
@@ -14,7 +19,7 @@ int main()
     printf("Enter the number : ");
     scanf("%d", &n);
     if (n < 0)
-        printf("Invalid input");
+        printf("Invalid output");
     else
         printf("Factorial of the number %d is %d", n, factorial_of_a_number(n));
     return 0;

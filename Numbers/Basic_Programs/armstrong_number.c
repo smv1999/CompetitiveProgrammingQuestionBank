@@ -3,44 +3,40 @@ each digit is equal to the number itself. */
 
 // C program to check whether the given number is Armstrong or not
 
-#include
-#include
+#include <stdio.h>
 
 int main()
 {
-int number, temp, remainder, result = 0, n = 0 ;
+    int number, temp, remainder, result = 0, n = 0;
 
-printf(“Enter an integer: “);
-scanf(“%d”, &number);
+    printf("Enter an integer: ");
+    scanf("%d", &number);
 
-temp = number;
+    temp = number;
 
-// Finding the number of digits
+    // Finding the number of digits
 
-while (temp != 0)
-{
-temp /= 10;
-++n;
+    while (temp != 0)
+    {
+        temp /= 10;
+        ++n;
+    }
+
+    temp = number;
+
+    // Checking if the number is armstrong
+
+    while (temp != 0)
+    {
+        remainder = temp % 10;
+        result += pow(remainder, n);
+        temp /= 10;
+    }
+
+    if (result == number)
+        printf("%d is an Armstrong number\n", number);
+    else
+        printf("%d is not an Armstrong number\n", number);
+
+    return 0;
 }
-
-temp = number;
-
-// Checking if the number is armstrong
-
-while (temp != 0)
-{
-remainder = temp%10;
-result += pow(remainder, n);
-temp /= 10;
-}
-
-if(result == number)
-printf(“%d is an Armstrong number\n”, number);
-else
-printf(“%d is not an Armstrong number\n”, number);
-
-return 0;
-}
-
-
-
