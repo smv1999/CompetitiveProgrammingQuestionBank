@@ -16,6 +16,8 @@ then create an issue and wait till it is assigned to you and then work on it and
 1. Click on that button and you will be taken to a page where you can create a pull request. After you have submitted the PR, I will review your work and approve
 the PR and merge it with the master branch.
 
+*Note : **Contributions in any form (Code, Documentation, etc) submitted should be the own work of the contributor and plagiarism is highly discouraged.***
+
 Happy Coding!!!
 
 
