@@ -18,3 +18,7 @@ printf("%d\n", rev);
 
 return 0;
 }
+
+/* Enter a number : 12345
+   Reversed Number : 54321
+*/
