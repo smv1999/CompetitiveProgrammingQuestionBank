@@ -1,3 +1,6 @@
+/* Maximum and minimum of an array using minimum number of comparisons */
+
+
 // C++ program of above implementation 
 
 #include <iostream>
