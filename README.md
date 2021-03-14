@@ -53,6 +53,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/kiruba-r11"><img src="https://avatars.githubusercontent.com/u/76843281?s=400&u=e505d92cafc37670d23a8b51eb7d99777c46a84e&v=4" width="100px;" alt=""/><br /><sub><b>kiruba-r11</b></sub></a><br /><a href="https://github.com/kiruba-r11/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/nikita-jain-01"><img src="https://avatars.githubusercontent.com/u/72670446?s=400&u=608b2cb6bb50668db257a6d2a0c9138b53f5eb92&v=4" width="100px;" alt=""/><br /><sub><b>nikita-jain-01</b></sub></a><br /><a href="https://github.com/nikita-jain-01/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/Rishabh062"><img src="https://avatars.githubusercontent.com/u/57454462?s=400&u=00d039afe29ffad87e32135bc704a6c19aba9784&v=4" width="100px;" alt=""/><br /><sub><b>Rishabh062</b></sub></a><br /><a href="https://github.com/Rishabh062/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
   </tr>
 </table>
 
