@@ -1,4 +1,6 @@
-// Problem - Print the sum of all submatrices of the given matrix
+// Problem - Print the sum of all submatrices of the given matrix for Q queries.
+//           The coordinates (start and end index) of the submatrix is given as queries
+//           the problem is to find the sum of those submatrices for given queries.
 
 // Sample Input - 1
 // 		3 3
