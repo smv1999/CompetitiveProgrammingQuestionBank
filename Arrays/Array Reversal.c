@@ -6,18 +6,26 @@
 // added the useful header file
 int main()
 {
-    int num, *arr, i,swap=0; // initialize the variable
-    scanf("%d", &num); // taking array length from user
-    arr = (int*) malloc(num * sizeof(int)); //dynamically creating array to stop the waste of unnecessary memory
+    // initialize the variable
+    int num, *arr, i,swap=0;
+     // taking array length from user
+    scanf("%d", &num);
+    //dynamically creating array to stop the waste of unnecessary memory
+    arr = (int*) malloc(num * sizeof(int)); 
     for(i = 0; i < num; i++) {
-        scanf("%d", arr + i); // taking input
+        // taking input
+        scanf("%d", arr + i); 
     }
     // This is the main logic to reverse an array
-for(i=0;i<num/2;i++) // loop will run until i<num/2
+    // loop will run until i<num/2
+for(i=0;i<num/2;i++) 
 { // swapping
-swap=*(arr+i); // putting value of arr[i] in swap variable
-*(arr+i)=*(arr+(num-1-i)); // putting value of arr[num-i-1] in arr[i]
-*(arr+(num-1-i))=swap; // putting swap variable value in arr[num-1-i]
+ // putting value of arr[i] in swap variable
+swap=*(arr+i); 
+// putting value of arr[num-i-1] in arr[i]
+*(arr+i)=*(arr+(num-1-i));
+// putting swap variable value in arr[num-1-i]
+*(arr+(num-1-i))=swap; 
 // swapping completed
 }
 // printing the output
