@@ -11,7 +11,7 @@ int main()
     // dynamically creating string length
     s=(char*)malloc(sizeof(char)*1000);
     // getting string
-    fgets(s);
+    fgets(s,1000,stdin);
     // changing size to the length of string+1 to store null at end
     s=realloc(s,strlen(s)+1);
 	//calling permutation
