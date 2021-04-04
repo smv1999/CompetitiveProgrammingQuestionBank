@@ -61,5 +61,5 @@ Output: 1(abc)
         4(bca)
         5(cba)
         6(cab)
-Time Complexity: O(n!)
+Time Complexity: O(n*n!)
 */
