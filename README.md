@@ -61,7 +61,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 🚀 **Contributions** of any kind is welcome!
 
 
-## Stargazers Over Time
+## Stargazers Over Time 
 
 [![Stargazers over time](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank.svg)](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank)
 
