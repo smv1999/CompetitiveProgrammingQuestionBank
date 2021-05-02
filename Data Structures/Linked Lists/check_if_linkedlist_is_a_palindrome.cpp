@@ -3,6 +3,18 @@
 #include <iostream>
 using namespace std;
 
+
+/*
+Approch used: 
+-First traverse the LL to the middle node
+using floyd's algorithm. 
+-Than reverse the second half of the Linked list.
+-Reset the fast pointer to head and compare each node.
+
+-If Any does not match, the LL is not a palindrome.
+
+
+*/
 struct Node
 {
     int data;
