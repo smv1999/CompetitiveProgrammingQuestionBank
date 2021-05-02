@@ -1,5 +1,13 @@
 #include <bits/stdc++.h>
 
+/*
+Given a doubly linked list of n elements. The task is to reverse the doubly linked list.
+
+Example:
+Input: LinkedList: 3 <--> 4 <--> 5
+Output: 5 4 3
+*/
+
 using namespace std;
 
 struct Node
@@ -24,8 +32,6 @@ Node *newNode(int data)
 }
 
 
-
-
 void displayList(Node *head)
 {
     while(head->next)
@@ -39,47 +45,16 @@ void displayList(Node *head)
     
 }
 
-
-int getLength(Node * head)
-{
-    Node *temp=head;
-    
-    int count=0;
-    while(temp->next!=head)
-    {
-        count++;
-        temp=temp->next;
-    }
-    return count+1;
-}
-
-
-
-
-bool verify(Node* head)
-{
-    int fl=0;
-    int bl=0;
-    
-    Node *temp=head;
-    
-    while(temp->next)
-    {
-        temp=temp->next;
-        fl++;
-    }
-    
-    while(temp->prev)
-    {
-        temp=temp->prev;
-        bl++;
-    }
-    
-    return fl==bl;
-}
-
-
 // main function for reversing the doubly linked list
+
+/*
+Approch:
+Simply just keep track of the previous node
+and the next node. 
+
+Almost similar to the singly linked list you have an extra pointer
+as prev to take care of 
+*/
 Node* reverseDLL(Node * head)
 {
     Node* temp = NULL;
@@ -124,11 +99,8 @@ int main() {
 	    head=reverseDLL(head);
 	    
 	    
-	    if(verify(head))
 	    displayList(head);
-	    else
-	    cout<<"Your pointers are not correctly connected";
- 
+	    
 	    cout<<endl;
 	}
 	return 0;
