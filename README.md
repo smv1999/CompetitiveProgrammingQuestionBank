@@ -57,7 +57,9 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 <td align="center"><a href="https://github.com/SarthakKeshari"><img src="https://avatars.githubusercontent.com/u/55992140?v=4" width="100px;" alt=""/><br /><sub><b>SarthakKeshari</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=SarthakKeshari" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/MannyP31"><img src="https://avatars.githubusercontent.com/u/76945004?v=4" width="100px;" alt=""/><br /><sub><b>MannyP31</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=MannyP31" title="Code">💻</a></td>
  <td align="center"><a href="https://github.com/dsrao711"><img src="https://avatars.githubusercontent.com/u/59830064?v=4" width="100px;" alt=""/><br /><sub><b>dsrao711</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=dsrao711" title="Code">💻</a></td>
- </tr>
+<td align="center"><a href="https://github.com/UG-SEP"><img src="https://avatars.githubusercontent.com/u/75884061?v=4" width="100px;" alt=""/><br /><sub><b>UG-SEP</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=UG-SEP" title="Code">💻</a></td>
+ <td align="center"><a href="https://github.com/gaurav24072002"><img src="https://avatars.githubusercontent.com/u/77109758?v=4" width="100px;" alt=""/><br /><sub><b>gaurav24072002</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=gaurav24072002" title="Code">💻</a></td>
+</tr>
 </table>
 
 🚀 **Contributions** of any kind is welcome!
