@@ -1,6 +1,6 @@
 # 🎯💻Competitive Programming Question Bank🏆🏅
 This repository contains all the popular Competitive Programming questions and Interview questions. The Programming languages used for demonstration are the C Language, C++, Python, and Java. <br><br>
- [![Followers](https://img.shields.io/github/followers/smv1999?style=for-the-badge)](https://github.com/smv1999/followers)
+ [![Followers](https://img.shields.io/github/followers/smv1999?style=for-the-badge)](https://github.com/smv1999?tab=followers)
  ![GitHub forks](https://img.shields.io/github/forks/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)
  ![GitHub Repo stars](https://img.shields.io/github/stars/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)
  [![Watchers](https://img.shields.io/github/watchers/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/watchers)
