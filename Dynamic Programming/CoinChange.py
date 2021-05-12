@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/coin-change/
 
+
+# (Solution is given in Python 2)
+
 #### In the given problem , we are supposed to find minimum number of coins to get the sum equal to the amount given
 
 #### For given example
@@ -36,6 +39,7 @@
 # We are supposed to return op[amount] 
 
 # In this case op[18] returns the minimum coins required to produce the sum 18
+
 
 
 class Solution(object):
