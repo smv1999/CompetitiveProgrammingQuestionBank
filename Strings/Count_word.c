@@ -7,8 +7,6 @@
 int count_words(char *sen)
 {
     int i=0,check=1,word=0;
-    //dynamically allocating memory
-    realloc(sen,strlen(sen)+1);
     //until i is less then length of sen variable the loop will run
     while(strlen(sen)>i)
     {
