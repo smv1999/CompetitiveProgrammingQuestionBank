@@ -1,7 +1,7 @@
 /*
 
 This is a Doubly Linked List program which gets a integer data from the user and
-creates a node which is appended to the Linked List.
+creates a node which is inserted at the beginning to the Linked List.
 
 Since, it is a Doubly Linked List, both the forward and backward traversal is also possible.
 
