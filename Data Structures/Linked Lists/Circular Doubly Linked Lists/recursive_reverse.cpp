@@ -1,6 +1,6 @@
 /*
 
-This is a Circular Doubly Linked List program which reverses the Linked Lists.
+This is a Circular Doubly Linked List program which recursively reverses the Linked Lists.
 Since, it is a Ciruclar Doubly Linked List, both the forward and backward traversal is also possible.
 
 */
@@ -63,54 +63,50 @@ void createDCLL(dcll_node* &head) {
 
 }
 
-void reverse(dcll_node* &head) {
+dcll_node* recursive_reverse(dcll_node *head) {
 
 	if(head == NULL || head->next == head)
-		return;
+		return head;
 
-	head->prev->next = NULL;
-
-	dcll_node *p = NULL , *q = head , *r = head->next;
-	while(r != NULL) {
-		q->next = p;
-		q->prev = r;
-		p = q;
-		q = r;
-		r = r->next;
-	}
-
-	q->next = p;
-	q->prev = head;
-	head->next = q;
-	head = q;
+	head->prev->next = head->next;
+	head->next->prev = head->prev;
+	dcll_node* tHead = recursive_reverse(head->next);
+	tHead->prev->next = head;
+	head->prev = tHead->prev;
+	head->next = tHead;
+	tHead->prev = head;
+	return tHead;
 }
 
 void display(dcll_node* head) {
 
-	dcll_node* temp = head;
+	if(head == NULL)
+		return;
 
 	cout << "The elements are : ";
+	dcll_node* temp = head;
+
 	do {
 
 		cout << temp->data << " ";
 		temp = temp->next;
 
 	} while(temp != head);
-
 	cout << endl;
 }
 
 int main() {
 
 	dcll_node* head = NULL;
+
 	createDCLL(head);
 
-	cout << "Before Reversing : " << endl;
+	cout << "Before reversing : " << endl;
 	display(head);
 
-	reverse(head);
+	head = recursive_reverse(head);
 
-	cout << "After Reversing : " << endl;
+	cout << "After reversing : " << endl;
 	display(head);
 
 	return 0;
