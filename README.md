@@ -1,5 +1,5 @@
 # 🎯💻Competitive Programming Question Bank🏆🏅
-This repository contains all the popular Competitive Programming questions and Interview questions. The Programming languages used for demonstration are the C Language, C++, Python, and Java. <br><br>
+This repository contains all the popular Competitive Programming questions and Interview questions. The Programming languages used for demonstration are the C Language, C++, Python, Java and JavaScript. <br><br>
  [![Followers](https://img.shields.io/github/followers/smv1999?style=for-the-badge)](https://github.com/smv1999?tab=followers)
  ![GitHub forks](https://img.shields.io/github/forks/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)
  ![GitHub Repo stars](https://img.shields.io/github/stars/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)
@@ -81,7 +81,7 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 ## Programs 
 <img src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif" alt="DevIncept" />
 
-<p>DevIncept is an 30 day open source program helping the student community learn and contribute in various open source project under the guidance of skilled mentors and project admins.</p>
+<p>DevIncept is a 30 day open source program helping the student community learn and contribute in various open source projects under the guidance of skilled mentors and project admins.</p>
 
 
 ## Stargazers Over Time 
