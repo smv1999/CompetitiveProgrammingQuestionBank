@@ -56,8 +56,9 @@ int main()
     root->left->left=newnode(9);
     root->right=newnode(1);
     root->left->right=newnode(6);
+    root->left->right->left=newnode(7);
     // printing the final value
-    cout<<"Diameter"<<final_diameter(root);
+    cout<<"Diameter:"<<final_diameter(root);
     return 0;
 }
 
@@ -65,12 +66,17 @@ int main()
     OUTPUT
 
          5
-        / \         the longest path is from the node conatining value '4' to node containing 
-       3   1        value '1'.
+        / \         
+       3   1      
       / \
      9   6
-
-     Diameter:4
-
+        /
+       7
+       
+     Diameter:5
+     
+ the longest path is from the node conatining value '7'
+ to node containing value '1'.
+   
 
 */
