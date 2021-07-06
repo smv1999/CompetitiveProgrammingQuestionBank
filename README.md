@@ -67,4 +67,11 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 [![Stargazers over time](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank.svg)](https://starchart.cc/smv1999/CompetitiveProgrammingQuestionBank)
 
 ## LICENSE
-This project follows the [MIT License](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/LICENSE).
+This project follows the 
+<p align="center">
+<a href="https://github.com/">smv1999/CompetitiveProgrammingQuestionBank/blob/master/LICENSE">
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
+<h5 align="center"><b>MIT License</b></a> 
+
+
+💜 **Thanks**
