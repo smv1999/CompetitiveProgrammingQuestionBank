@@ -13,11 +13,6 @@ class Node:
 
 class Solution:
     #Function to convert a binary tree into its mirror tree.
-    def createNode(self , val):
-        mirror = Node(0)
-        mirror.data = val
-        mirror.right = None
-        mirror.left = None
         
 
     def mirror(self,root):
@@ -41,9 +36,6 @@ class Solution:
 #  Driver Code Starts
 #Initial Template for Python 3
 
-
-
-#Contributed by Sudarshan Sharma
 from collections import deque
 # Tree Node
 class Node:
