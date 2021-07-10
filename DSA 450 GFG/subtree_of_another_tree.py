@@ -1,3 +1,4 @@
+
 # https://leetcode.com/problems/subtree-of-another-tree/submissions/
 
 # Definition for a binary tree node.
@@ -29,3 +30,4 @@ class Solution(object):
           return True
         else:
           return self.isSubtree(root.right , subRoot) or self.isSubtree(root.left , subRoot)
+
