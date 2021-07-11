@@ -1,4 +1,4 @@
-#Link to problem:- 
+
 #Bubble sort is a sorting algorithm. Sorting algorithms are used to arrange the array in particular order.In,Bubble sort larger elements are pushed at the end of array in each iteration.It works by repeatedly swapping the adjacent elements if they are in wrong order.
 
 def bubbleSort(a): 
