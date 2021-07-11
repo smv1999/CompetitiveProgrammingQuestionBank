@@ -19,7 +19,6 @@ using namespace std;
 class Solution {
   public:
     int getMinDiff(int arr[], int n, int k) {
-        // code here
         sort(arr, arr+n);
 
         int ans = arr[n-1] - arr[0];
