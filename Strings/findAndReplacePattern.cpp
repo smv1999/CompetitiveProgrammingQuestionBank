@@ -34,18 +34,18 @@ vector<string> findAndReplacePattern(vector<string> &words, string pattern)
     for (int i = 0; i < words.size(); i++)
     {
         bool flag = true;
-        unordered_map<char, char> wordToPattern;
-        unordered_map<char, char> patternToWord;
+        unordered_map<char, char> wordToPattern; // Map to match given word with given pattern
+        unordered_map<char, char> patternToWord; // Map to match given pattern with given word
         for (int j = 0; j < pattern.length(); j++)
         {
             char wc = words[i][j];
             char pc = pattern[j];
-            if (wordToPattern.count(wc) < 1)
+            if (wordToPattern.count(wc) < 1) // checking if corresponding character of word is present in wordToPatterrn map
                 wordToPattern[wc] = pc;
-            if (patternToWord.count(pc) < 1)
+            if (patternToWord.count(pc) < 1) // checking if corresponding character of pattern is present in patternToWord map
                 patternToWord[pc] = wc;
 
-            if (patternToWord[pc] != wc || wordToPattern[wc] != pc)
+            if (patternToWord[pc] != wc || wordToPattern[wc] != pc) // Checking if there is a mismatch of the corresponding characters in both the maps
             {
                 flag = false;
                 break;
@@ -57,7 +57,7 @@ vector<string> findAndReplacePattern(vector<string> &words, string pattern)
     return ans;
 }
 
-int main()
+int main() // driver function
 {
     vector<string> words={"abc","deq","mee","aqq","dkd","ccc"};
     string pattern="abb";
