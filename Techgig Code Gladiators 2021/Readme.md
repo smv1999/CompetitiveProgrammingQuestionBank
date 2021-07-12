@@ -8,7 +8,7 @@
                                  
         * <a href ="https://github.com/sreelakshmig009/CompetitiveProgrammingQuestionBank/blob/techgig/Techgig%20Code%20Gladiators%202021/open%20round/virus_outbreak.md">Virus Outbreak</a>
 
-        * Prime Game
+        * <a href="https://github.com/sreelakshmig009/CompetitiveProgrammingQuestionBank/blob/techgig/Techgig%20Code%20Gladiators%202021/open%20round/prime_game.md">Prime Game</a>
      
    * Semi Finals Round:
     
