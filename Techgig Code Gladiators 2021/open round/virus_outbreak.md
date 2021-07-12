@@ -16,3 +16,41 @@ The person in question is POSITIVE as B is the subsequence of the V.
 The scientists are busy with their research for medicine and request you to build a program which can quickly figure out if the person is POSITIVE or NEGATIVE. They will provide you with the virus composition V and all the people’s current blood composition. Can you help them?
 
 <mark><b>Note</b>: The virus and blood compositions are lowercase alphabet strings.</mark>
+
+#### Input Format:
+
+The first line of the input consists of the virus composition, V
+
+The second line of he input consists of the number of people, N
+
+Next N lines each consist of the blood composition of the ith person, Bi
+
+#### Constraints:
+
+1<= N <=10
+
+1<= |B|<= |V|<= 10^5
+
+#### Output Format:
+
+For each person, print POSITIVE or NEGATIVE in a separate line
+
+Sample Test Case 1:
+
+Input
+
+```
+coronavirus
+3
+abcde
+crnas
+onarous
+```
+
+Output
+
+```
+NEGATIVE
+POSITIVE
+NEGATIVE
+```
