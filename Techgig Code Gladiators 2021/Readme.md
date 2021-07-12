@@ -4,7 +4,7 @@
 
 * Content:
       
-   * Open Coding Round Problems:
+   * Open Coding Round :
                                  
         * <a href ="https://github.com/sreelakshmig009/CompetitiveProgrammingQuestionBank/blob/techgig/Techgig%20Code%20Gladiators%202021/open%20round/virus_outbreak.md">Virus Outbreak</a>
 
