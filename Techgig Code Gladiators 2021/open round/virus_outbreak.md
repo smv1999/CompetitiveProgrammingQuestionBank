@@ -6,3 +6,13 @@ In the Martian land faraway, a new virus has evolved and is attacking the indivi
 
 If the blood composition of the person is a subsequence of the virus composition V, then the person is identified as POSITIVE otherwise NEGATIVE.
 
+#### Example:
+
+Virus Composition, V = coronavirus
+Blood Composition of the person , B = ravus
+
+The person in question is POSITIVE as B is the subsequence of the V. 
+
+The scientists are busy with their research for medicine and request you to build a program which can quickly figure out if the person is POSITIVE or NEGATIVE. They will provide you with the virus composition V and all the people’s current blood composition. Can you help them?
+
+^Note: The virus and blood compositions are lowercase alphabet strings.^
