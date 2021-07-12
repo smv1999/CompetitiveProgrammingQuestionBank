@@ -15,4 +15,4 @@ The person in question is POSITIVE as B is the subsequence of the V.
 
 The scientists are busy with their research for medicine and request you to build a program which can quickly figure out if the person is POSITIVE or NEGATIVE. They will provide you with the virus composition V and all the people’s current blood composition. Can you help them?
 
-^Note: The virus and blood compositions are lowercase alphabet strings.^
+<mark><b>Note</b>: The virus and blood compositions are lowercase alphabet strings.</mark>
