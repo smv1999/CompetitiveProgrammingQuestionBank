@@ -4,7 +4,8 @@ Jazzy is good with bowling but is not good with studies. His mom wants him to fo
 
 She will give the balls to Jazzy only if he can tell the maximum number of moves required in which he can get to play with all the balls. There are few conditions though:
  
-     * In one move, Jazzy can divide the number of balls in the packet into an equal number of groups only.
+     
+  * In one move, Jazzy can divide the number of balls in the packet into an equal number of groups only.
      
      Example : Suppose there are 6 balls in the packet. 
      
@@ -16,11 +17,11 @@ She will give the balls to Jazzy only if he can tell the maximum number of moves
         
      Note: Dividing a single group into multiple groups of equal number is considered one move only.
      
-    * Jazzy can get to play with the balls when they are present as a single unit only and not in any group of size greater than 1. Also, getting to play with a ball is considered a move.
+ * Jazzy can get to play with the balls when they are present as a single unit only and not in any group of size greater than 1. Also, getting to play with a ball is considered a move.
     
     Example: In a group there are 2 balls, then Jazzy cannot play with them until he further divides them into single-single units.
     
-    * The length of all the packets/groups should always be an integer.
+ * The length of all the packets/groups should always be an integer.
 
     Example: Number of Packets, N = 1
              Number of balls in packet = 6
