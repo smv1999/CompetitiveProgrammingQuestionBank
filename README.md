@@ -68,3 +68,4 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 
 ## LICENSE
 This project follows the [MIT License](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/LICENSE).
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
