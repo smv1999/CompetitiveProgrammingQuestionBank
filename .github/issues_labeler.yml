@@ -1,0 +1,18 @@
+C:
+  - "( C )"
+C-Plus-Plus:
+  - "(C-Plus-Plus|CPP|cpp|C++)"
+C-Sharp:
+  - "(C-Sharp|csharp|C#)"
+Go:
+  - "(Go|GO|Golang)"
+Java:
+  - "(Java|java)"
+JavaScript:
+  - "(JavaScript|JAVASCRIPT|Javascript|javascript|JS|js)"
+Python:
+  - "(Python|PYTHON|python)"
+Q-Sharp:
+  - "(Q-Sharp|qsharp|Q#)"
+enhancement:
+  - "(enhancement)"
