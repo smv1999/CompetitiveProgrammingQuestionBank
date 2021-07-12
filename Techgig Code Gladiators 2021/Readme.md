@@ -6,7 +6,7 @@
       
    * Open Coding Round Problems:
                                  
-        * Virus Outbreak
+        * <a href ="https://github.com/sreelakshmig009/CompetitiveProgrammingQuestionBank/blob/techgig/Techgig%20Code%20Gladiators%202021/open%20round/virus_outbreak.md">Virus Outbreak</a>
 
         * Prime Game
      
