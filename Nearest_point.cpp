@@ -3,7 +3,7 @@
 using namespace std ;
 class points
 {
-  int i ,j;
+  float i ,j;
   float dis;
   public :
   points()
