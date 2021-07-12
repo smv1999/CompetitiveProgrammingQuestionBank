@@ -12,4 +12,4 @@
      
    * Semi Finals Round:
     
-        * Jazzy And Cricket Balls
+        * <a href="https://github.com/sreelakshmig009/CompetitiveProgrammingQuestionBank/blob/techgig/Techgig%20Code%20Gladiators%202021/semifinals/jazzy%20and%20cricket%20balls.md">Jazzy And Cricket Balls</a>
