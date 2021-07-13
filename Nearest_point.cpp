@@ -1,3 +1,7 @@
+/* TITLE : To find the nearest point of the central point given.
+   Description : User need to provide the positions of points A , B and C and also of the central point.
+                 It will indicate the shortest path can be followed by the central point among the given other three points. 
+*/
 #include<iostream>
 #include<cmath>
 using namespace std ;
