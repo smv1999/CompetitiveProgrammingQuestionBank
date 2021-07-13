@@ -1,24 +1,27 @@
+// A pythom program for all operations performed on singly linked-list.
+// Time-Complexity = O(n)
+// Space-Complexity = O(n)
 class Node:
-    def __init__(self, data=None, next=None):
+    def __init__(self, data=None, next=None):   // Creation of Node
         self.data = data
         self.next = next
 
 class LinkedList:
     def __init__(self):
-        self.head = None
+        self.head = None  // head points the first node
 
     def print(self):
         if self.head is None:
             print("Linked list is empty")
             return
         itr = self.head
-        llstr = ''
+        llstr = ''    // empty string
         while itr:
             llstr += str(itr.data)+' --> ' if itr.next else str(itr.data)
             itr = itr.next
         print(llstr)
 
-    def length(self):
+    def length(self):   // will calculate length of the linked list
         count = 0
         itr = self.head
         while itr:
@@ -28,7 +31,7 @@ class LinkedList:
         return count
 
     def insert_at_begining(self, data):
-        node = Node(data, self.head)
+        node = Node(data, self.head)  // Creating a new node calling Node method
         self.head = node
 
     def insert_at_end(self, data):
@@ -74,7 +77,7 @@ class LinkedList:
         itr = self.head
         while itr:
             if count == index - 1:
-                itr.next = itr.next.next
+                itr.next = itr.next.next        // to delete the specified node
                 break
 
             itr = itr.next
