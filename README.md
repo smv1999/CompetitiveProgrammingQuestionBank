@@ -26,7 +26,7 @@ This repository contains all the popular Competitive Programming questions and I
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Numbers">Numbers</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/OOPs">OOPs</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Passwords">Passwords</a></li>
- <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Searching%20Algorithm">Searching Algorithms</a></li>
+ <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Searching%20Algorithms">Searching Algorithms</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Sorting%20Algorithms">Sorting Algorithms</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Standard%20Template%20Library">Standard Template Library</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Strings">Strings</a></li>
