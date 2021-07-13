@@ -1,0 +1,22 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Saviour1001/Greeting-action@main
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: 'Hello @${{github.actor}}, <br>
+                        Thank you for opening an issue. :partying_face: <br>
+                        To get assigned to this particular issue please use <b>/assign</b><br>
+                        <i> Check this <a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTING.md">guide</a> before contributing.'
+        PR_message:
+                      '<h1> :partying_face: Congratulations :tada: </h1>:pray:
+                      Thank you @${{github.actor}} for taking out your time and contributing to our project. Our team will now review this and if everything looks good it will be merged.'
