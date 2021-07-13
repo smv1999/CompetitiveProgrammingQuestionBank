@@ -1,5 +1,7 @@
 /*
 
+This program will do simple linkedlist operations like Insertion, Deletion, Searching and Modifying.
+
 */
  
 #include<iostream>
@@ -39,12 +41,6 @@ Node* insert_to_list(Node* head){
 
 Node* delete_from_list(Node* head){
 
-    // cout << "enter the number to be removed from list : ";
-
-    // int number;
-
-    // cin >> number;
-
     Node* temp = new Node();
 
     temp = head;
@@ -57,14 +53,77 @@ Node* delete_from_list(Node* head){
 
 }
 
+// search node in the list, returns true if the node is found in the list, if not false
+
+void search_list(Node* head){
+
+    cout << "enter the number to search : ";
+
+    int number;
+
+    cin >> number;
+
+    string result = "false";
+
+    while (head != NULL)
+    {
+
+        if(head -> data == number){
+
+            // cout << head -> data << endl;
+
+            if(head -> data){
+
+                result = "true";
+            }
+            
+        }
+
+        head = head -> next;
+
+    }
+
+    cout << result << endl;
+    
+}
+
+// modifies the node in the list
+
+void modify_list(Node* head){
+
+    int modify_number, replace_number;
+
+    cout << "enter the number to modify : ";
+
+    cin >> modify_number;
+
+    cout << "enter the number that replaces the number : ";
+
+    cin >> replace_number;
+
+    while (head != NULL)
+    {
+
+        if(head -> data == modify_number){
+
+            head -> data = replace_number;
+        }
+
+        head = head -> next;
+
+    }
+    
+}
+
+
 // prints list
 
-void print_list(Node* n){
+void print_list(Node* head){
 
-    while (n != NULL)
+    while (head != NULL)
     {
-        cout << n -> data << " ";
-        n = n -> next;
+        cout << head -> data << " ";
+        head = head -> next;
     }
     cout << endl;
 
@@ -79,7 +138,7 @@ int main()
     Node* third = new Node();
 
     head -> data = 1;
-    head -> next = second;
+    head -> next     = second;
 
     second -> data = 2;
     second -> next = third;
@@ -92,10 +151,12 @@ int main()
 
     while (!quit){
 
-        cout << "1. add to list begninnig" << endl
-             << "2. delete first node from list" << endl
-             << "3. print list" << endl
-             << "4. quit" << endl;
+        cout << "1. add number to the list beginning" << endl
+             << "2. delete first number from the list" << endl
+             << "3. search for number in the list" << endl
+             << "4. modify number in the list" << endl
+             << "5. print the list" << endl
+             << "6. quit" << endl;
 
         cin >> choice;
         
@@ -119,11 +180,26 @@ int main()
                 
             case 3: 
             {
+
+                search_list(head);
+                break;
+            }
+            
+            case 4:
+            {   
+                modify_list(head);
+                print_list(head);
+                break;
+                
+            }
+
+            case 5:
+            {
                 print_list(head);
                 break;
             }
             
-            case 4: 
+            case 6: 
             {
                 quit = true;
                 break;
@@ -136,15 +212,6 @@ int main()
             }
         }
     }
-
-    // Node* temp = insert_node(head);
-
-    // print_list(temp);
-
-
-    // Node* temp = delete_node(head);
-
-    // print_list(temp);
 
     return 0;
 }
