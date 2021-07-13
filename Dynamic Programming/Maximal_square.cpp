@@ -39,13 +39,15 @@ using namespace std;
 int maximalSquare(vector<vector<char>>& matrix) {
     int n = matrix.size();
     int m = matrix[0].size();
-    vector<vector<int>>dp(n, vector<int>(m, 0));
-    dp[n-1][m-1] = matrix[n-1][m-1]-'0';
+    vector<vector<int>>dp(n, vector<int>(m, 0)); // dp matrix
+    dp[n-1][m-1] = matrix[n-1][m-1]-'0';  // dp[n-][m-1] is same as matrix[n-1][m-1]
     int ans = dp[n-1][m-1];
+    //last column is 1 or 0
     for(int i=0;i<n-1;i++){
         dp[i][m-1]=matrix[i][m-1]-'0';
         ans = max(ans, dp[i][m-1]);
-    }    
+    } 
+    //last row is 1 or 0
     for(int j=0;j<m-1;j++){
         dp[n-1][j]=matrix[n-1][j]-'0';
         ans = max(ans, dp[n-1][j]);
@@ -54,10 +56,13 @@ int maximalSquare(vector<vector<char>>& matrix) {
     {
         for(int j=m-2;j>=0;j--)
         {
+            // dp[i][j] is 0 when matrix[i][j] is 0
             if(matrix[i][j]=='0')
-                dp[i][j]=0;
+                dp[i][j]=0; 
+            //dp[i][j] is 1 + min(right_hand, diagonally_down, down)  
             else
                 dp[i][j] = 1+min(dp[i][j+1],min(dp[i+1][j],dp[i+1][j+1]));
+            // ans is max of all values in dp
             ans =  max(dp[i][j], ans);
         }
     }
