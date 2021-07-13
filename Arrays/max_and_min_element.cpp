@@ -1,3 +1,28 @@
+// Problem Description:
+//   Here, we have an array arr[]. The array contains n integer values.
+//   We have to find the maximum value and minimum value out of all values of the array.
+
+//   Let’s take an example to understand the problem
+
+//   Input  : n = 5
+//            a[n] = { 10, 20, 30, 40, 50}
+
+//   Output :  Maximum element of array is 50
+//             Minimum element of array is 10
+
+// Explanation : 
+//
+// There can be multiple solution for this problem. 
+// One solution is to directly compare the elements of  array. This can be done by using two different approaches :
+//      1.Iterative approach  
+//      2.Recursive approach 
+
+// Here we are using iterative approach to solve this problem. 
+// initially we will set a[0] as min/max. Then we iterate over each elemnts using loop and compare it with max/min element of array. 
+
+// Time Complexity  : O(n)
+// Space Complexity : O(1)
+
 #include <iostream>
 using namespace std;
 
@@ -39,5 +64,4 @@ int main()
 
 }
 
-// Time Complexity --> O(n)
 
