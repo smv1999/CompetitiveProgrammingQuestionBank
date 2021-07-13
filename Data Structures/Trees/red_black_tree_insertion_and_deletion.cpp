@@ -86,7 +86,7 @@ private:
 				} 
 				else {
 					if (s->right->color == 0) {
-						// x ’s sibling S is black, S's left child is red, and S's right child is black.
+						// x â€™s sibling S is black, S's left child is red, and S's right child is black.
 						s->left->color = 0;
 						s->color = 1;
 						rightRotate(s);
@@ -119,7 +119,7 @@ private:
 				} 
 				else {
 					if (s->left->color == 0) {
-						// x ’s sibling S is black, S's left child is red, and S's right child is black.
+						// x â€™s sibling S is black, S's left child is red, and S's right child is black.
 						s->right->color = 0;
 						s->color = 1;
 						leftRotate(s);
