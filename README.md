@@ -24,6 +24,7 @@ This repository contains all the popular Competitive Programming questions and I
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/General%20Questions">General Questions</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Greedy">Greedy</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Hackerrank%20solutions">HackerRank Solutions</a></li>
+ <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Hashing">Hashing</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Numbers">Numbers</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/OOPs">OOPs</a></li>
  <li><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/tree/master/Passwords">Passwords</a></li>
