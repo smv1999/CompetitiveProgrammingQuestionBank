@@ -38,10 +38,10 @@ This repository contains all the popular Competitive Programming questions and I
   <details><summary><b>Java</b></summary><br/>
    
   | <a href="https://t.me/MegaPack/2783"><img src="./Library/Java/photo_2020-09-18_18-24-45.jpg" width=111px height=140px /></a>|<a href="https://github.com/winterbe/java8-tutorial"><img src="./Library/Java/Screenshot%202021-07-12%20121030.png" width=111px height=140px/></a> |<a href="https://t.me/MegaPack/2666"><img src="./Library/Java/photo_2020-09-17_13-31-29.jpg" width=111px height=140px/></a>|<a href="https://t.me/MegaPack/2489"><img src="./Library/Java/photo_2020-08-29_16-30-42.jpg" width=111px height=140px/></a>|<a href="https://drive.google.com/file/d/1FPmSo3dID7P4baE2umyfTCrWTBT-cywo/view"><img src="./Library/Java/Screenshot%202021-07-12%20132104.png" width=111px height=140px/></a>|
-  |----|----|-----|-------|-----|
-  |Java-An Intro|Java 8 Tutorial|Java Design Patterns|Interactive OOP in Java|Java- The Complete Reference(11th ED)|
+  |----|----|----|----|----|
+  |Java-An Intro|Java 8 Tutorial|Design Patterns|OOP in Java|Complete Ref.11|
   |<a href="https://drive.google.com/file/d/1f5n4hr09oKFMtu3lIb_ErqOwhH0I4QCe/view?usp=sharing"><img src="./Library/Java/Screenshot%202021-07-12%20132959.png" width=111px height=140px/></a>|<a href="https://t.me/MegaPack/497"><img src="./Library/Java/photo_2019-07-03_00-02-44.jpg" width=111px height=140px/></a>|<a href="https://t.me/MegaPack/587"><img src="./Library/Java/photo_2019-07-20_23-56-04.jpg" width=111px height=140px/></a>|<a href="https://t.me/MegaPack/1776"><img src="./Library/Java/photo_2020-06-29_16-39-21.jpg" width=111px height=140px/></a>|<a href="https://t.me/MegaPack/2077"><img src="./Library/Java/photo_2020-08-17_18-03-24.jpg" width=111px height=140px/></a>|
-  |Java CookBook|Java in a Nutshell|Java Program Design|Java all-in-one|Java Performance|
+  |Java CookBook|J in a Nutshell|Program Design|Java all-in-one|Java Performance|
 
   </details>
 
