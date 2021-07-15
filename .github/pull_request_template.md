@@ -19,7 +19,6 @@ Happy Contributing!
 
 - [ ] I've read the contribution guidelines.
 - [ ] I've checked the issue list before deciding what to submit.
-- [ ] I've edited the `README.md` and link to my code.
 
 ## Related Issues or Pull Requests
 
