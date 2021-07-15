@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+/* O(VE)**/
 int Bellman_Ford(int G[20][20] , int V, int E, int edge[20][2])
 {
     int i,u,v,k,distance[20],parent[20],S,flag=1;
