@@ -19,56 +19,54 @@ The function takes a string s as its only argument .
 
 **************************************************************************/
 
+// SOLUTION (in C++):
 
-SOLUTION (in C++):
+#include <bits/stdc++.h>
 
-#include<bits/stdc++.h>
-
-using namesapce std;
+using namespace std;
 
 int isValid(string s)
 {
-    s += '.';
-    int countDots = 0;
-    string str = "";
-    for(int i = 0;i<s.length();i++)
-    {
-        if(s[i] != '.')
-        {
-           if(s[i] >= 48 && s[i] <= 57)
-                 str += s[i];
-           else
-                 return 0;
-        }
-        if(s[i] == '.')
-        {
-           if(str[0] == '.' && str.length() > 1)
-              return 0;
-           stringstream obj(str);
-           int x = 0;
-           obj>>x;
-           if(x<0 || x>255)
-               return 0;
-           if(str.size() == 0)
-               return 0;
-           countDots++;
-           str = "";
-    }
-    if(countDots == 4)
-       return 1;
-    else 
-       return 0;
+   s += '.';
+   int countDots = 0;
+   string str = "";
+   for (int i = 0; i < s.length(); i++)
+   {
+      if (s[i] != '.')
+      {
+         if (s[i] >= 48 && s[i] <= 57)
+            str += s[i];
+         else
+            return 0;
+      }
+      if (s[i] == '.')
+      {
+         if (str[0] == '.' && str.length() > 1)
+            return 0;
+         stringstream obj(str);
+         int x = 0;
+         obj >> x;
+         if (x < 0 || x > 255)
+            return 0;
+         if (str.size() == 0)
+            return 0;
+         countDots++;
+         str = "";
+      }
+      if (countDots == 4)
+         return 1;
+      else
+         return 0;
+   }
 }
-
-
-int main()
-{
-   string s;
-   cin>>s;
-   int k = isValid(s);
-   if(k == 0)
-     cout<<"Valid"<<endl;
-   else
-     cout<<"Not Valid"<<endl;
-   return 0;
-}
+   int main()
+   {
+      string s;
+      cin >> s;
+      int k = isValid(s);
+      if (k == 0)
+         cout << "Valid" << endl;
+      else
+         cout << "Not Valid" << endl;
+      return 0;
+   }
