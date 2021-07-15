@@ -1,3 +1,47 @@
+/* Rat In a Maze
+ ---------------------------------------------------------------------
+ 
+Problem: Given a maze(2D matrix) with obstacles, starting from (0,0) you have to
+reach (n-1, n-1). If you are currently on (x,y), you can move to (x+1,y) or (x,y+1).
+You can not move to the walls.
+Idea: Try all the possible paths to see if you can reach (n-1,n-1) 
+
+--------------------------------------------------------------------------------
+
+Input:
+----
+0 denotes wall, 1 denotes free path
+two numbers n, m
+Next n lines contain m numbers (0 or 1)
+
+Output:
+--------
+Print 1 if rat can reach (n-1,m-1)
+Print 0 if it can not reach (n-1,m-1)
+
+------------------------
+
+Test Case 1:
+
+Input:
+5 5
+1 0 1 0 1
+1 1 1 1 1
+0 1 0 1 0
+1 0 0 1 1
+1 1 1 0 1
+
+Output:
+
+1 0 0 0 0
+1 1 1 1 0
+0 0 0 1 0
+0 0 0 1 1
+0 0 0 0 1
+
+*/
+
+
 #include <iostream>
 using namespace std;
 
@@ -68,3 +112,7 @@ int main(){
 	
 	return 0;
 }
+
+/* Time Complexity: O(2n)
+Space Complexity: O(2n)
+*/
