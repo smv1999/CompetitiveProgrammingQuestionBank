@@ -31,11 +31,6 @@ int main()
 { 
    fast;
 
-// #ifndef ONLINE_JUDGE
-// freopen("input.txt","r",stdin);
-// freopen("output.txt","w",stdout);
-// #endif
-
 ll n; cin>>n;
 cout<<int_to_roman(n);
 
