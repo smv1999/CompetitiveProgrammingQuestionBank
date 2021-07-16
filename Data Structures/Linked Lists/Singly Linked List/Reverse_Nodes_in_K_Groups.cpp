@@ -62,13 +62,11 @@ ListNode* reverseKGroup(ListNode* head, int k) {
 int main()
 {
     int NumOfNodes, nn, data, k;
-    //cout<<"Enter no. ot nodes\n";
     cin>>NumOfNodes;
     nn = NumOfNodes;
     ListNode* head = NULL;
     ListNode* tail = head;
     
-	//cout<<"Enter data\n";	
     while(nn--){
     	cin>>data;
     	if(!head){
@@ -80,7 +78,6 @@ int main()
 			tail = tail->next;
 		}			
 	}
-	//cout<<"\nK = ";
 	cin>>k;
 	ListNode* finalHead = reverseKGroup(head, k);
 	printList(finalHead);
