@@ -1,10 +1,20 @@
 //Move all zeros to End
+//Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 //Approach 1
 //O(n^2) O(1)
 
-// i/p: n=5  
-// 		0 1 0 3 12
+// i/p: n=5, 0 1 0 3 12
 // o/p: 1 3 12 0 0
+
+/*
+Brute froce approach
+n=5
+traversals :
+0 0 1 2 3
+1 0 0 2 3
+1 2 0 0 3
+1 2 3 0 0
+*/
 
 #include<iostream>
 using namespace std;
@@ -12,24 +22,22 @@ void moveToEnd(int arr[],int n)
 {
 	for(int i=0;i<n;i++)
 	{
-		if(arr[i]==0)				//so we 1st find is there any 0 present
-			{
-				for(int j=i+1;j<n;j++)
-					if(arr[j]!=0)		//if non zero then swap with ith 0
-					{
-							swap(arr[i],arr[j]); //and swap both
-							break;
-					}
-			}
+	  //We 1st find is there any 0 present
+	  if(arr[i]==0)				
+	   {
+	   for(int j=i+1;j<n;j++){
+		//if non zero then swap with ith 0
+		if(arr[j]!=0)		
+		{
+	         //swap both
+		 swap(arr[i],arr[j]); 
+		 break;
+		}
+	     }	   
+	  }
 	}
 }
-/*
-5
-0 0 1 2 3
-1 0 0 2 3
-1 2 0 0 3
-1 2 3 0 0
-*/
+
 
 int main()
 {
