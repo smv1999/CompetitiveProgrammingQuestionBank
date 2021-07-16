@@ -42,12 +42,19 @@ void printList(ListNode* head){
 ListNode* reverseKGroup(ListNode* head, int k) {
     ListNode* curr = head;
     int count = 0;
+    
+    //Take first k group of nodes
     while (curr != NULL && count != k) { 
         curr = curr->next;
         count++;
     }
+    
     if (count == k) { 
+	    //Recursively taking all k group of nodes
+	    //Passing next group first node as curr
         curr = reverseKGroup(curr, k); 
+        
+        //Go on reversing the node group using normal reverse steps
         while (count-- > 0) { 
             ListNode* tmp = head->next; 
             head->next = curr;
