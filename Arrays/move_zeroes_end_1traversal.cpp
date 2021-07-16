@@ -1,11 +1,13 @@
 //Move all zeros to End
+//Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 //Approach 2
 //O(n) O(1)
 
 
-// i/p: n=5  
-// 		0 1 0 3 12
+// i/p: n=5, 0 1 0 3 12
 // o/p: 1 3 12 0 0
+
+// Here we replace another loop with count
 
 #include<iostream>
 using namespace std;
@@ -16,14 +18,14 @@ void moveToEnd(int arr[],int n)
 	{
 		if(arr[i]!=0)
 		{
-			swap(arr[i],arr[count]); //if we get 0 we ignore it
-			count++;				 //and if we get non zero we swap with count
-									// which point at 0
+			//if we get 0 we ignore it
+			//and if we get non zero we swap with count which point at 0
+			swap(arr[i],arr[count]); 
+			count++;				 
+									
 		}
 	}
 }
-
-// Here we replace another loop with count
 
 int main()
 {
