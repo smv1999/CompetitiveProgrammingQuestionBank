@@ -76,6 +76,5 @@ Input: s = "paper", t = "title"
 Output: true
 
 Time Complexity: O(n)
-Space Complexity: O(n)
-
+Space Complexity: O(n)  , where n is the length of the input string
 */
