@@ -9,16 +9,16 @@
 #include<iostream>
 using namespace std;
 
-void towerofHanoi(int n, char src, char helper ,char dest){
+void towerofHanoi(int n, char src, char helper ,char dest){// number of element , source, helper, destination
 	
 	
 	if(n==0){
 		return; //base case
 	}
 	
-	towerofHanoi(n-1, src, dest, helper);
+	towerofHanoi(n-1, src, dest, helper);// Move n-1 disks from source to helper
 	cout<<"Move from "<<src<<" to "<<helper<<endl;
-	towerofHanoi(n-1, dest, helper, src);
+	towerofHanoi(n-1, dest, helper, src);// Move n-1 disks from destination to helper
 	
 	
 	
@@ -26,7 +26,7 @@ void towerofHanoi(int n, char src, char helper ,char dest){
 
 int main(){
 	
-	towerofHanoi(3, 'A', 'B', 'C');
+	towerofHanoi(3, 'A', 'B', 'C');// A = Source , B = helper, C = destination.
 	
 	return 0;
 	
