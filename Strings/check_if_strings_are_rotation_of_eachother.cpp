@@ -4,7 +4,7 @@ A Program to check if strings are rotations of each other or not.
 
 ***************************************************************************/
 
-SOLUTION (in C++):
+//SOLUTION (in C++):
 
 //Suppose there are two strings s1 = "devincept" and s2 = "vinceptde", 
 
