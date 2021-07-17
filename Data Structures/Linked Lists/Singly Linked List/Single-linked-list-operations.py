@@ -6,6 +6,7 @@ class Node:
         self.data = data
         self.next = next
 
+
 class LinkedList:
     def __init__(self):
         self.head = None  # head points the first node
@@ -88,13 +89,28 @@ class LinkedList:
         for data in data_list:
             self.insert_at_end(data)
 
+    # removing element at linkedlist with Value
+    def removeval(self, value):
+        if value == self.head.data:
+            self.head = self.head.next
+            return
+        temp = self.head
+        while temp:
+            if value == temp.next.data:
+                temp.next = temp.next.next
+                break
+
+            temp = temp.next
+
 
 if __name__ == '__main__':
     node1 = LinkedList()
-    node1.insert_values(["python","C++","C","Java"])
-    node1.insert_at(1,"Javascript")
+    node1.insert_values(["python", "C++", "C", "Java"])
+    node1.insert_at(1, "Javascript")
     node1.remove_at(2)
+    node1.removeval("C")
     node1.print()
-    node1.insert_values([45,7,12,567,99])
+    node1.insert_values([45, 7, 12, 567, 99])
     node1.insert_at_end(67)
+    node1.removeval(567)
     node1.print()
