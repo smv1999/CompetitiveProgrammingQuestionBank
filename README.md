@@ -62,34 +62,9 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 Thanks goes to these **Wonderful People** 👨🏻‍💻:       
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
- <tr>
-<td align="center"><a href="https://github.com/smv1999"><img src="https://avatars.githubusercontent.com/u/42896577?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width="100px;" alt=""/><br /><sub><b>smv1999</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/TawfikYasser"><img src="https://avatars.githubusercontent.com/u/54971231?s=400&u=0666d4ced1599a86cdb8d5bb817080ab2cbe22a0&v=4" width="100px;" alt=""/><br /><sub><b>TawfikYasser</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=TawfikYasser" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=Ayush7614" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/kiruba-r11"><img src="https://avatars.githubusercontent.com/u/76843281?s=400&u=e505d92cafc37670d23a8b51eb7d99777c46a84e&v=4" width="100px;" alt=""/><br /><sub><b>kiruba-r11</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=kiruba-r11" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/nikita-jain-01"><img src="https://avatars.githubusercontent.com/u/72670446?s=400&u=608b2cb6bb50668db257a6d2a0c9138b53f5eb92&v=4" width="100px;" alt=""/><br /><sub><b>nikita-jain-01</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=nikita-jain-01" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/Rishabh062"><img src="https://avatars.githubusercontent.com/u/57454462?s=400&u=00d039afe29ffad87e32135bc704a6c19aba9784&v=4" width="100px;" alt=""/><br /><sub><b>Rishabh062</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=Rishabh062" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/SarthakKeshari"><img src="https://avatars.githubusercontent.com/u/55992140?v=4" width="100px;" alt=""/><br /><sub><b>SarthakKeshari</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=SarthakKeshari" title="Code">💻</a></td>
- </tr>
- <tr>
-<td align="center"><a href="https://github.com/MannyP31"><img src="https://avatars.githubusercontent.com/u/76945004?v=4" width="100px;" alt=""/><br /><sub><b>MannyP31</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=MannyP31" title="Code">💻</a></td>
- <td align="center"><a href="https://github.com/dsrao711"><img src="https://avatars.githubusercontent.com/u/59830064?v=4" width="100px;" alt=""/><br /><sub><b>dsrao711</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=dsrao711" title="Code">💻</a></td>
-<td align="center"><a href="https://github.com/UG-SEP"><img src="https://avatars.githubusercontent.com/u/75884061?v=4" width="100px;" alt=""/><br /><sub><b>UG-SEP</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=UG-SEP" title="Code">💻</a></td>
- <td align="center"><a href="https://github.com/gaurav24072002"><img src="https://avatars.githubusercontent.com/u/77109758?v=4" width="100px;" alt=""/><br /><sub><b>gaurav24072002</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=gaurav24072002" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/version0chiro"><img src="https://avatars.githubusercontent.com/u/56084650?v=4" width="100px;" alt=""/><br /><sub><b>version0chiro</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=version0chiro" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/Abhishek-072"><img src="https://avatars.githubusercontent.com/u/79994128?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek-072</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=Abhishek-072" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/jahnvisrivastava100"><img src="https://avatars.githubusercontent.com/u/60891187?v=4" width="100px;" alt=""/><br /><sub><b>jahnvisrivastava100</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=jahnvisrivastava100" title="Code">💻</a></td>
-</tr>
- <tr>
-  <td align="center"><a href="https://github.com/ManavArora26"><img src="https://avatars.githubusercontent.com/u/72567005?v=4" width="100px;" alt=""/><br /><sub><b>ManavArora26</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=ManavArora26" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/Iamtripathisatyam"><img src="https://avatars.githubusercontent.com/u/69134468?v=4" width="100px;" alt=""/><br /><sub><b>Iamtripathisatyam</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=Iamtripathisatyam" title="Code">💻</a></td>
-  <td align="center"><a href="https://github.com/pri1311"><img src="https://avatars.githubusercontent.com/u/64613009?v=4" width="100px;" alt=""/><br /><sub><b>pri1311</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=pri1311" title="Code">💻</a></td> 
- </tr>
-</table>
+<a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=smv1999/CompetitiveProgrammingQuestionBank" />
+</a>
 
 🚀 **Contributions** of any kind is welcome!
 
