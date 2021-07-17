@@ -1,4 +1,13 @@
-/* Example:
+/* Problem Statement:
+Four players participate in the playoff tournament. The tournament is held according to the following scheme: the first player will play with the second, and the third player with the fourth, then the winners of the pairs will play in the finals of the tournament.
+
+It is known that in a match between two players, the one whose skill is greater will win. The skill of the i-th player is equal to si and all skill levels are pairwise different (i. e. there are no two identical values in the array s).
+
+The tournament is called fair if the two players with the highest skills meet in the finals.
+
+Determine whether the given tournament is fair.
+
+Example:
 
 Input:
 4
