@@ -1,3 +1,9 @@
+/*Write program to find the maximum  profit and the solution vector for Knapsack problem. 
+  Consider the following constraints for knapsack. N=3,  M=20
+  Profit : 25 24 15
+  Weight : 18 15 10
+*/
+
 #include<stdio.h>
 #include<conio.h>
 int main(){
