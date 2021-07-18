@@ -1,7 +1,7 @@
-// C++ program to demonstrate Protected Inheritance
+// C++ program to demonstrate Private Inheritance
 
-// Protected Inheritance - It is defined as the inheritance in which public members of the base class becomes protected members
-// of the derived class and also the protected members of the base class becomes protected members of the derived class.
+// Private Inheritance - It is defined as the inheritance in which public members of the base class becomes private members
+// of the derived class and also the protected members of the base class becomes private members of the derived class.
 
 //Note : Private members are not inherited.
 
@@ -25,7 +25,7 @@ class Animal{
 };
 
 // derived class
-class Cat:protected Animal{
+class Cat:private Animal{
    public:
     void animal_info(){
        sleep();
@@ -39,8 +39,7 @@ class Cat:protected Animal{
 int main(){
     // Create object of the Cat class
     Cat cat1;
-    // Calling public and protected members of the base class through derived class function
-    // Note : Only derived class can access the member functions and data members of the base class in case of protected inheritance.
+    // Calling public and protected members of the base class through derived class function (because they are private members in derived class)
     cat1.animal_info();
     // Calling member of the derived class
     cat1.meow();
