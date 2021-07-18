@@ -43,7 +43,7 @@ class Solution:
         # if the target sum is less than 2 or the lis A is empty,
         # then retirn an empty list
         if B<2 or len(A)==0:
-            return [[]]
+            return []
 
         
         result=[]
