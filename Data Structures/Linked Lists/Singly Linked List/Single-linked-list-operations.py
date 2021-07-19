@@ -91,16 +91,26 @@ class LinkedList:
 
     # removing element at linkedlist with Value
     def removeval(self, value):
-        if value == self.head.data:
-            self.head = self.head.next
-            return
+        count = 0
         temp = self.head
         while temp:
-            if value == temp.next.data:
-                temp.next = temp.next.next
-                break
-
+            if value != temp.data:
+                count += 1
             temp = temp.next
+        if count == self.length():
+            print("Value is not present")
+
+        else:
+            if value == self.head.data:
+                self.head = self.head.next
+                return
+            temp = self.head
+            while temp:
+                if value == temp.next.data:
+                    temp.next = temp.next.next
+                    break
+
+                temp = temp.next
 
 
 if __name__ == '__main__':
