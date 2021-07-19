@@ -1,3 +1,15 @@
+"""Aim: Given a string S , encrypt or decrypt it as per the choice entered by the user using Caesar Cipeher Substitution Method
+    
+Input Format: 
+1. The first line provides an option to the user to choose either to encrypt/decrypt
+2. In the second line the user inputs the string as per his choice given in part 1.
+   """
+
+
+
+
+
+
 from random import choice
 
 def decrypt(encrypted_string,key_val):
