@@ -1,9 +1,12 @@
-"""Aim: Given a string S , encrypt or decrypt it as per the choice entered by the user using Caesar Cipeher Substitution Method
+"""
+Aim: Given a string S , encrypt or decrypt it as per the choice entered by the user using Caesar Cipeher Substitution Method
     
 Input Format: 
 1. The first line provides an option to the user to choose either to encrypt/decrypt
 2. In the second line the user inputs the string as per his choice given in part 1.
-   """
+
+Note : It is considered that the encrypted string consists of both upper and lowercase letters , while the decrypted strings consist of only uppercase letters.
+"""
 
 from random import choice
 
