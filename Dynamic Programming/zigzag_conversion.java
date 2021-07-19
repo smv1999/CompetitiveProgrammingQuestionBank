@@ -40,12 +40,14 @@ import java.util.*;
 public class MyClass {
     public static String convert(String s, int numRows) {
         int flag = -1;
+
         HashMap < Integer, String > map = new HashMap < > ();
         int pos = 0;
         String word = "";
         if (numRows <= 1)
             return s;
         else {
+            // traversing in zig zag pattern and storing the data of each row in hashtable as string
             for (int x = 0; x < s.length(); x++) {
                 char ch1 = s.charAt(x);
                 String ch = Character.toString(ch1);
@@ -54,27 +56,31 @@ public class MyClass {
                     flag = 1;
                     if (map.containsKey(pos)) {
                         String a = map.get(pos);
+                        // concatinating the previous word along with new character
                         String w = a + ch;
                         map.put(pos, w);
                     } else {
                         map.put(pos, ch);
                     }
+                    // once reached the end of the row start moving upwards i.e decreasing the key in hash table
                     pos--;
-
-                } else if (pos == 0 || flag == 0) {
+                } 
+                else if (pos == 0 || flag == 0) {
                     flag = 0;
+                    // check if the key in hash table has some data present
                     if (map.containsKey(pos)) {
                         String a = map.get(pos);
                         String w = a + ch;
-
                         map.put(pos, w);
                     } else {
                         map.put(pos, ch);
                     }
+                    // keep increasing the key i.e pos in hash table till we reach at the end of the row
                     pos++;
                 }
             }
             for (Map.Entry < Integer, String > e: map.entrySet())
+                // concatinate the values of each row of hash table
                 word = word + e.getValue();
 
             return word;
