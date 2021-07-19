@@ -4,7 +4,7 @@ Given an m x n matrix, find all common elements present in all rows in one trave
 
 *******************************************************************************/
 
-//SOLUTION (in c++)
+//SOLUTION (in C++)
 
 #include <bits/stdc++.h>
 
