@@ -1,5 +1,6 @@
+#Function To implement BFS (Breath First Search)
 def Breathfirstsearch(matrix,start):
-    visit=[start] #Keep Track of Visited elements
+    visit=[start] #Keep Track of Visited Vertex
     queue=[start] #BFS is implemented using queue
     while(len(queue)) :
         ele=queue.pop(0) #pop the element from queue ie first element from list
@@ -26,6 +27,6 @@ if __name__ == "__main__":
              exit # Terminate the program for incorrect details
          matrix.append(li)   
      start=int(input("Enter the starting vertix\n"))
-     ans=Breathfirstsearch(matrix,start)
+     ans=Breathfirstsearch(matrix,start) 
      print("BFS order of the given graph is ",end=" ")
      print(*ans)  
