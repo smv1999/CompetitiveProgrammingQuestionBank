@@ -1,3 +1,5 @@
+#  DFS Traversal of Graph using Adjacency Matrix Representation 
+#  Function To implement DFS (Depth First Search)
 def Depthfirstsearch(matrix,start):
     visit=[start] #Keep Track of Visited elements
     stack=[start] #DFS is implemented using stack
