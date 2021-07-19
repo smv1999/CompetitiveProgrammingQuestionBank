@@ -24,6 +24,13 @@ Explanation: The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 
  */
 class Solution {
 public:
+	/**The logic is very simple. The maximum path sum will always consist of a node and its left and right sub-tree maximum path sum. As the node values can be negative also so 
+	4 cases comes here .
+	1) A node and its both sub-trees will constitute the sum 
+	2) Only a node and its left sub-tree will constitute the sum
+	3) Only a node and its right sub-tree will constitute the sum
+	4) Only one node will constitute the sum
+	*/
     int maxPathSum(TreeNode* root) {
         if(root==NULL)
             return 0;
@@ -41,7 +48,9 @@ public:
             l=0;
         if(r<0)
             r=0;
+        //Case 1 and 4 is checked here
         ans=max(ans,l+r+root->val);
+        //Case 2 and 3 is checked here
         return max(l+root->val,r+root->val);
     }
 };
