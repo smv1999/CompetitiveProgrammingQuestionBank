@@ -47,7 +47,7 @@ public class MyClass {
         if (numRows <= 1)
             return s;
         else {
-            // traversing in zig zag pattern and storing the data of each row in hashtable as string
+            // traversing in zig zag pattern and storing the data of each row in hash map as string
             for (int x = 0; x < s.length(); x++) {
                 char ch1 = s.charAt(x);
                 String ch = Character.toString(ch1);
@@ -62,12 +62,12 @@ public class MyClass {
                     } else {
                         map.put(pos, ch);
                     }
-                    // once reached the end of the row start moving upwards i.e decreasing the key in hash table
+                    // once reached the end of the row start moving upwards i.e decreasing the key in hash map
                     pos--;
                 } 
                 else if (pos == 0 || flag == 0) {
                     flag = 0;
-                    // check if the key in hash table has some data present
+                    // check if the key in hash map has some data present
                     if (map.containsKey(pos)) {
                         String a = map.get(pos);
                         String w = a + ch;
@@ -75,12 +75,12 @@ public class MyClass {
                     } else {
                         map.put(pos, ch);
                     }
-                    // keep increasing the key i.e pos in hash table till we reach at the end of the row
+                    // keep increasing the key i.e pos in hash map till we reach at the end of the row
                     pos++;
                 }
             }
             for (Map.Entry < Integer, String > e: map.entrySet())
-                // concatinate the values of each row of hash table
+                // concatinate the values of each row of hash map
                 word = word + e.getValue();
 
             return word;
