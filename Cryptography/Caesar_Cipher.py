@@ -1,4 +1,4 @@
-"""
+'''
 Aim: Given a string S , encrypt or decrypt it as per the choice entered by the user using Caesar Cipeher Substitution Method
     
 Input Format: 
@@ -6,9 +6,7 @@ Input Format:
 2. In the second line the user inputs the string as per his choice given in part 1.
 
 Note : It is considered that the encrypted string consists of both upper and lowercase letters , while the decrypted strings consist of only uppercase letters.
-"""
-
-from random import choice
+'''
 
 def decrypt(encrypted_string,key_val):
     '''This is the decryption function
@@ -37,7 +35,6 @@ def encrypt(input_string,key_val):
             encrypt_char = 65 - ( 90 - encrypt_char)
         encrypt_char = chr(encrypt_char)
         final += encrypt_char
-    final = ''.join(choice((str.upper, str.lower))(char) for char in final)
     return final
 
 #DRIVER CODE
@@ -57,7 +54,7 @@ if (choose == 2):
     key_val = int(input('Enter the key value '))
     print('Decrypted string is : ' + decrypt(encrypted_string,key_val))
 
- """
+ '''
  Sample Test Case :
  Case 1 :
         User chooses to input string and encrypt the inputted string.
