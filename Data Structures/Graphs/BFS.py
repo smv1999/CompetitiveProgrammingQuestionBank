@@ -1,4 +1,5 @@
-#Function To implement BFS (Breath First Search)
+#  BFS Traversal of Graph using Adjacency Matrix Representation 
+#  Function To implement BFS (Breath First Search)
 def Breathfirstsearch(matrix,start):
     visit=[start] #Keep Track of Visited Vertex
     queue=[start] #BFS is implemented using queue
