@@ -5,11 +5,6 @@ Input Format:
 2. In the second line the user inputs the string as per his choice given in part 1.
    """
 
-
-
-
-
-
 from random import choice
 
 def decrypt(encrypted_string,key_val):
@@ -59,4 +54,29 @@ if (choose == 2):
     key_val = int(input('Enter the key value '))
     print('Decrypted string is : ' + decrypt(encrypted_string,key_val))
 
-       
+ """
+ Sample Test Case :
+ Case 1 :
+        User chooses to input string and encrypt the inputted string.
+            input :  
+                string : escrsce
+                key value  : 5
+            output :
+                encrypted string : JXHxwhJ
+                
+ Case 2 :
+        User chooses to enter an encrypted string and decrypt it.
+            input :
+                string : trWEcere
+                key value : 6
+            output :
+                Decrypted String : ZXDKIKXK
+                
+ Explaination :
+    In this program , we take the input string and key value .Once we get the key value , we substitute the alphabet of the string with the updated key value alphabet.
+    For eg . if input character is A and key value is 3 , so it will be subsituted by D ( A + 3 = D)
+    Also in case if the encrypted string consists of both lower and uppercase characters we convert the whole string to uppercase
+    
+ '''
+
+            
