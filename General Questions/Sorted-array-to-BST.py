@@ -1,24 +1,34 @@
 # Python program to convert sorted array into Binary Search Tree
 # Definition for a binary tree node.
-class TreeNode(object):
+class Node:
+    def __init__(self, d):
+        self.data = d
+        self.left = None
+        self.right = None
 
-    def __init__(self, val=0, left=None, right=None):
-         self.val = val
-         self.left = left
-         self.right = right
+def sortedArrayToBST(nums):
+    if not nums:
+        return None
 
-class Solution(object):
+    mid = (len(nums)) // 2
 
-    def recursive(self, nums):
-        def rec(nums, start, end):
-            if start <= end:
-                mid = (start + end) // 2                    # calculating root node
-                node = TreeNode(nums[mid])
-                node.left = rec(nums, start, mid - 1)       # recursive call to function recursive
-                node.right = rec(nums, mid + 1, end)
-                return node
-            return rec(nums, 0, len(nums) - 1)
+    root = Node(nums[mid])  # make the middle element the root
 
-sol = Solution()        # Creation of object
-nums = [-10,-3,0,5,9]
-sol.recursive(nums)
+    root.left = sortedArrayToBST(nums[:mid])  # all values < nums[mid]
+
+    root.right = sortedArrayToBST(nums[mid + 1:])  # all values > nums[mid]
+    return root
+
+def preOrder(node):  # function to print the tree
+    if not node:
+        return None
+
+    print(node.data)
+    preOrder(node.left)
+    preOrder(node.right)
+
+# driver program
+nums = [5,6,7,8,9,10,11]
+root = sortedArrayToBST(nums)
+print("PreOrder Traversal of constructed BST ")
+preOrder(root)
