@@ -1,0 +1,19 @@
+name: Issue_watcher
+ 
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+      - name: Run Action
+        uses: TesseractCoding/Issue_Watcher@main
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          author: '${{github.actor}}'
+          repo: smv1999/CompetitiveProgrammingQuestionBank               #Change the Repo name 
+          maxIssue: 2
