@@ -1,3 +1,4 @@
+#program to check password strength. A strong password needs to be at least 8 chars long, have both upper and lowercase chars and have some special characters as well.
 import string
 
 def Strength(password):
@@ -21,8 +22,7 @@ def Strength(password):
             specialChar = True
  
     # Strength of password calculation.
-    # password is strong only if it has both upper case and lowercase letters as well as special characters. 
-    # Also length should be greater than or equal to 8
+
     print("Strength of password:-", end = "")
     if (hasLower and hasUpper and
         hasDigit and specialChar and n >= 8):
