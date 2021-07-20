@@ -1,4 +1,6 @@
 #Longest Common Prefix in python
+#Implementation of python program to find the longest common prefix amongst the given list of strings. 
+#If there is no common prefix then returning 0.
 
 #define the function to evaluate the longest common prefix
 def longestCommonPrefix(s): 
