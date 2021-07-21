@@ -12,7 +12,7 @@ def decrypt(encrypted_string,key_val):
     '''This is the decryption function
     It takes in input encrypted string and key value
     Prints nothing and return the decrypted string value'''
-    final = '"'
+    final = ""
     encrypted_string = encrypted_string.upper()
     for i in range(len(encrypted_string)):
         decrypt_char = ord(encrypted_string[i]) + key_val
