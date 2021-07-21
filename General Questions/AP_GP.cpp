@@ -4,7 +4,7 @@
                   You can also find the ' Mean' , ' Sum ' and the nth the term if
                   it is following any one of the of progression .
                   Need to enter atleast three minimun number .
-                *****  For G.P here the common difference should be greater than 1 .******
+                *****  For A.P and G.P , here the common difference , common ratio should be greater than 1 .******
 
 */
 #include<iostream>
