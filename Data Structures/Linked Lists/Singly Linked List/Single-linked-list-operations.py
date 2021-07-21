@@ -6,6 +6,7 @@ class Node:
         self.data = data
         self.next = next
 
+
 class LinkedList:
     def __init__(self):
         self.head = None  # head points the first node
@@ -88,13 +89,51 @@ class LinkedList:
         for data in data_list:
             self.insert_at_end(data)
 
+    # removing element at linkedlist with Value
+    def removeval(self, value):
+        count = 0
+        temp = self.head
+        while temp:
+            if value != temp.data:
+                count += 1
+            temp = temp.next
+        if count == self.length():
+            print("Value is not present")
+
+        else:
+            if value == self.head.data:
+                self.head = self.head.next
+                return
+            temp = self.head
+            while temp:
+                if value == temp.next.data:
+                    temp.next = temp.next.next
+                    break
+
+                temp = temp.next
+
 
 if __name__ == '__main__':
     node1 = LinkedList()
-    node1.insert_values(["python","C++","C","Java"])
-    node1.insert_at(1,"Javascript")
-    node1.remove_at(2)
+    ins = list(input("Enter a values to be inserted by giving space[eg: python c++ java] : ").rstrip().split())
+    node1.insert_values(ins)
     node1.print()
-    node1.insert_values([45,7,12,567,99])
-    node1.insert_at_end(67)
+    ind = int(input("Enter the index to be added: "))
+    val = input('Enter the value: ')
+    node1.insert_at(ind, val)
+    node1.print()
+    remm = int(input('Enter the index to be removed: '))
+    node1.remove_at(remm)
+    node1.print()
+    remval = input('Enter the value to be removed: ')
+    node1.removeval(remval)
+    node1.print()
+    inss = list(input("Enter a values to be inserted by giving space[eg: 45 30 22] : ").rstrip().split())
+    node1.insert_values(inss)
+    node1. print()
+    inend = int(input('Enter the number to be inserted at the end: '))
+    node1.insert_at_end(inend)
+    node1.print()
+    remval1 = input('Enter the value to be removed: ')
+    node1.removeval(remval1)
     node1.print()
