@@ -19,6 +19,7 @@ def decrypt(encrypted_string,key_val):
         if (decrypt_char > 90):
             decrypt_char = 65 - ( 90 - decrypt_char)
         decrypt_char = chr(decrypt_char)
+        decrypt_char = decrypt_char.lower()
         final += decrypt_char
     return final
 
