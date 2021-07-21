@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* O(VE)**/
+/*Time Complexity:- O(VE)**/
 int Bellman_Ford(int G[20][20] , int V, int E, int edge[20][2])
 {
     int i,u,v,k,distance[20],parent[20],S,flag=1;
     for(i=0;i<V;i++)
-        distance[i] = 1000 , parent[i] = -1 ;
+        distance[i] = 1000//assigning infinity value to all the path initially , parent[i] = -1 ;
         printf("Enter source: ");
         scanf("%d",&S);
         distance[S-1]=0 ;
@@ -14,7 +14,7 @@ int Bellman_Ford(int G[20][20] , int V, int E, int edge[20][2])
         for(k=0;k<E;k++)
         {
             u = edge[k][0] , v = edge[k][1] ;
-            if(distance[u]+G[u][v] < distance[v])
+            if(distance[u]+G[u][v] < distance[v]) //Checking for the shortest path or the minimum cost
                 distance[v] = distance[u] + G[u][v] , parent[v]=u ;
         }
     }
