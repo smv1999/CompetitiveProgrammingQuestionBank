@@ -34,6 +34,7 @@ def encrypt(input_string,key_val):
         if (encrypt_char > 90):
             encrypt_char = 65 - ( 90 - encrypt_char)
         encrypt_char = chr(encrypt_char)
+        encrypt_char = encrypt_char.lower()
         final += encrypt_char
     return final
 
