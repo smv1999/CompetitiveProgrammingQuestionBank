@@ -24,7 +24,7 @@ string smallestWindow(string s,string p){
             if(freqp.find(s[r])!=freqp.end() && freqw[s[r]]==freqp[s[r]]){
                 count++; //if the char matches than count increased
             }
-            r++; #increment uptil the main string length
+            r++; //increment uptil the main string length
         }
         while(l<=r && count==distinct){
             if(ans>r-l){
