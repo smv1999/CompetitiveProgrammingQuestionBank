@@ -9,7 +9,7 @@ using namespace std;
 string smallestWindow(string s,string p){
     unordered_map<char,int> freqp;
     for(char c:p){
-        freqp[c]++; #taking in every character of the partial string
+        freqp[c]++; //taking in every character of the partial string
     }
     int distinct=freqp.size();
     unordered_map<char,int> freqw;
@@ -20,9 +20,9 @@ string smallestWindow(string s,string p){
 
     while(r<s.length()){
         while(r<s.length() && count<distinct){
-            freqw[s[r]]++; #taking in the main string
+            freqw[s[r]]++; //taking in the main string
             if(freqp.find(s[r])!=freqp.end() && freqw[s[r]]==freqp[s[r]]){
-                count++; #if the char matches than count increased
+                count++; //if the char matches than count increased
             }
             r++; #increment uptil the main string length
         }
@@ -31,7 +31,7 @@ string smallestWindow(string s,string p){
                 ans=r-l;
                 li=l;
                 ri=r;
-                flag=true; #setting the flag  true if window found
+                flag=true; //setting the flag  true if window found
             }
             freqw[s[l]]--;
             if(freqp.find(s[l])!=freqp.end()&& freqw[s[l]]<freqp[s[l]]){
