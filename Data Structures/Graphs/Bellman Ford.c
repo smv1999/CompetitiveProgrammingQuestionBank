@@ -1,3 +1,5 @@
+
+/*The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph. Bellman Ford's Algorithm comes into the picture when there is a negative weight edge. It also detects any negative weight cycle if present.**/
 #include <stdio.h>
 #include <stdlib.h>
 /*Time Complexity:- O(VE)**/
