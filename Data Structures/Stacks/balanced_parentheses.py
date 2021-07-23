@@ -1,4 +1,4 @@
-## Python3 code to Check for 
+## Python code to Check for 
 # balanced parentheses in an expression
 
 
