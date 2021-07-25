@@ -80,7 +80,7 @@ def findPartion(arr, n):
  
  
 # Driver code
-arr = []
+arr = list(map(int,input("\nEnter the numbers : ").strip().split()))
 n = len(arr)
  
 # Function call
