@@ -1,4 +1,4 @@
-// Problem Description: Strassen's Algorithm in C Language for Matrix Multiplication
+// Problem Description: Strassens Algorithm in C Language for Matrix Multiplication
 #include<stdio.h>
 int main(){
   int mat1[2][2], mat2[2][2], mat3[2][2], i, j;
