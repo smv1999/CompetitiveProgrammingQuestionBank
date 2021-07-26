@@ -1,4 +1,4 @@
-// Java program for Kadane's Algorithm
+// Java program for Kadane's Algorithms
 // 
 class algo{
 
