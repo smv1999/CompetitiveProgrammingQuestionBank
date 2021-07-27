@@ -1,5 +1,10 @@
 /*
    Title : Find the transpose of the matrix .
+           User needs to provide the number of rows and columns .
+           And the user needs to provide the elements of the matrix .
+           User will get the transpose of the matrix .
+           i.e Row elements become the column elements and vice- versa .
+           **** Maximum 10 number of rows and columns can be only entered .
    */
 import java.util.Scanner;
 import java.lang.*;
