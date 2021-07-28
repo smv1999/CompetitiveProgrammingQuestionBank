@@ -1,7 +1,16 @@
+/*
+Bubble Sort is the simplest sorting algorithm
+that works by repeatedly swapping the adjacent
+elements if they are in wrong order.
+
+
+*/
 public class BubbleSortExample {  
     static void bubbleSort(int[] arr) {  
+        // finding array size. 
         int n = arr.length;  
         int temp = 0;  
+        //each iteration place max element of 1 to n-i index at index n-i
          for(int i=0; i < n; i++){  
                  for(int j=1; j < (n-i); j++){  
                           if(arr[j-1] > arr[j]){  
@@ -32,3 +41,8 @@ public class BubbleSortExample {
    
         }  
 }  
+
+/* 
+Bubble Sort always runs O(n^2) time even if the array is sorted. 
+It can be optimized by stopping the algorithm if inner loop didn’t cause any swap. 
+*/
