@@ -1,13 +1,17 @@
+# Class to build a tree node
 class TreeNode:
+    # Constructor to create tree node
     def __init__(self, data):
         self.data = data
         self.children = []
         self.parent = None
-
+        
+    # Function to add a add in individual node
     def add_child(self, child):
         child.parent = self
         self.children.append(child)
-
+    
+    # Function to get a level of the selected node
     def getlevel(self):
         level = 0
         p = self.parent
@@ -15,7 +19,8 @@ class TreeNode:
             level += 1
             p = p.parent
         return level
-
+    
+    # Print the contructed tree
     def printt(self):
         prefix = (" " * 4 * self.getlevel()) + ("|--" if self.parent else "")
         print(prefix + self.data)
@@ -24,7 +29,9 @@ class TreeNode:
                 child.printt()
 
 
+# Funcation to build a tree
 def build_tree():
+    # Taking input dynamically
     print("Do the following given in eg bracket")
     print("\n")
     root = input('Enter a root node element (eg: Food): ')
