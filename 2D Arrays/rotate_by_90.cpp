@@ -1,3 +1,5 @@
+// Given a square matrix of size N x N. The task is to rotate it by 90 degrees in anti-clockwise direction without using any extra space.
+
 #include<bits/stdc++.h>
 #include <stdio.h>
 using namespace std;
