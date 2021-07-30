@@ -1,3 +1,4 @@
+/*Given a string S, remove consecutive duplicates from it recursively*/
 #include <iostream>
 #include <string.h>
 using namespace std;
