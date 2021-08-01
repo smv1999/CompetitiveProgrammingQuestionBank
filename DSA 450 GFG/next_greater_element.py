@@ -44,4 +44,5 @@ class Solution(object):
         return [d[i] for i in nums1]
     
     
-# Contributed by Divya Rao (dsrao711)
+# Time Complexity: O(N) 
+# Auxiliary Space: O(N)
