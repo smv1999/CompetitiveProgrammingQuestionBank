@@ -1,5 +1,21 @@
-// Given a string A denoting an expression. It contains the following operators ’+’, ‘-‘, ‘*’, ‘/’.
+// Given a string A of length n denoting an expression. It contains the following operators ’+’, ‘-‘, ‘*’, ‘/’.
 // Check whether A has redundant braces or not.
+
+// Input 1:
+//     A = "((a + b))"
+// Output 1:
+//     1
+//     Explanation 1:
+//         ((a + b)) has redundant braces so answer will be 1.
+
+// Input 2:
+//     A = "(a + (a + b))"
+// Output 2:
+//     0
+//     Explanation 2:
+//         (a + (a + b)) doesn't have have any redundant braces so answer will be 0.
+
+// Time complexity: O(n)
 
 #include <bits/stdc++.h> 
 using namespace std; 
