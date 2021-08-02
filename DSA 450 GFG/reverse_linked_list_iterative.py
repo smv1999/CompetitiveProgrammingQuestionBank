@@ -1,7 +1,6 @@
 #https://leetcode.com/problems/reverse-linked-list/
 
 # Iterative method
-
 #Approach : 
 
 # Store the head in a temp variable called current . 
