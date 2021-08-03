@@ -1,14 +1,16 @@
+# Class for creating nodes in linkedlist
 class SinglyLinkedListNode:
     def __init__(self, node_data):
         self.data = node_data
         self.next = None
 
-
+#Class for building linkedlist
 class SinglyLinkedList:
     def __init__(self):
         self.head = None
         self.tail = None
-
+    
+    #Function for inserting node
     def insert_node(self, node_data):
         node = SinglyLinkedListNode(node_data)
 
@@ -19,14 +21,14 @@ class SinglyLinkedList:
 
         self.tail = node
 
-
+#Function to print the linked list
 def print_singly_linked_list(node, sep):
     while node:
         print(str(node.data), end=' ')
 
         node = node.next
 
-
+# Function for getting elements in first and second linked list in array
 def printt(headd):
     itr = headd
     llstr = []
@@ -36,17 +38,18 @@ def printt(headd):
     return llstr
 
 
+# This function takes two linked list and compares it and merge two list
 def mergeLists(llist1, llist2):
     ll1 = printt(llist1)
     ll2 = printt(llist2)
-    ll3 = (ll1 + ll2)
+    ll3 = (ll1 + ll2) #comparing and merging two linked list
     ll3.sort()
-    lll = SinglyLinkedList()
+    lll = SinglyLinkedList() #creating new linkedlist
     for ii in ll3:
-        lll.insert_node(ii)
+        lll.insert_node(ii) #Adding merged element to new linked list
     return lll.head
 
-
+# Main funcation
 if __name__ == '__main__':
 
     llist1_count = int(
@@ -95,4 +98,7 @@ Enter the elements to be added in list2 line by line
 The merged linked list value:
 1 2 3 3 4
 
+Complexity:
+Time complexity: O(n)
+Space complexity: O(n)
 '''
