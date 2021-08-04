@@ -61,34 +61,43 @@ int main(void) {
 	int t,n,d,h;
 	
 	scanf("%d",&t);
+	// t represents the number of test cases
 
-	 while(t--)
+	 while(t--) //the loop runs for t times 
 	 {
 	     	scanf("%d %d %d",&n,&d,&h);
+		 // n, d and h respectively stores the input values
 	     	int sum=0;int val; int ret=0;
-	     	for(int i=0;i<n;i++)
+	     	for(int i=0;i<n;i++) // this loop take n values as user input
 	     	{
-	     	    scanf("%d",&val);
+			
+	     	    scanf("%d",&val); // the values inputted are stored each time in the variable val
+			//note: here a single variable is used instead of an array beacuse the operations are done on the variable here itself i.e. within this loop.
 	     	    if(val>0)
 	     	    {
-	     	        sum+=val;
+			    //if val( the level of water on ith day > 0
+	     	        sum+=val; // total level = previous(stored in sum itsef) + val;
 	     	       
 	     	    }
 	     	    if(val==0)
 	     	    {
+			    //if val( the level of water on ith day = 0
 	     	        sum=(sum<d)?0 : (sum-d);
-	     	       
+	     	       // the ternary operator above checks if sum<d for true: sum =0 for false: sum-d
 	     	    }
-	     	     if(sum>h)
+			
+	     	     if(sum>h) //checks the level each day (level is calculated by carrying out arithmetic operations on variable val which is finally stored in variable sum
 	     	        {
-	     	            ret=1;
+	     	            ret=1; //if red alert  i.e. sum > h , the variable ret is initialised with value 1.
+			     break; 
 	     	        }
 	     	}
-	     	if(ret==0)
+	     	if(ret==0) 
 	     	printf("NO\n");
-	     	else
+	     	else 
 	     	printf("YES\n");
-	     	
+	     	// Time Complexity : O(N)
+		 // Space Complexity: 0(1)
 	     	
 	 }
 	 
