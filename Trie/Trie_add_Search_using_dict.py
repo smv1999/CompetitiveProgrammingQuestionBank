@@ -1,3 +1,4 @@
+"""Trie DS implementation in Python"""
 class Trie:
     root = {}
     
