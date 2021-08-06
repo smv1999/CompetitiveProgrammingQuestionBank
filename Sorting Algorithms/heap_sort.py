@@ -45,7 +45,8 @@ def heap_sort(arr):
 # Taking Elements to be Sorted
 
 data = []
-n = int(input("Enter elements to be sorted :"))
+n = int(input("Enter total number of elements :"))
+print("Enter elements to be sorted ")
  
 for i in range(n):
     data.append(int(input()))
@@ -60,7 +61,8 @@ for d in data:
 
 '''
 INPUT
-Enter elements to be sorted : 5
+Enter total number of elements :5
+Enter elements to be sorted
 30
 50
 10
