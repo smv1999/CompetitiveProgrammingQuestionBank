@@ -1,4 +1,4 @@
-/* C program to print a given number in words. The program
+/* C++ program to print a given number in words. The program
 handles numbers from 0 to 9999 
 Just take an example  if the user privide the number
 INPUT-
