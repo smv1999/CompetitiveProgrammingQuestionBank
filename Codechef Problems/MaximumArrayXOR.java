@@ -5,7 +5,7 @@
  * Problem code: MAXARXOR
  * Problem link: https://www.codechef.com/START7C/problems/MAXARXOR
  * 
- * Approach:
+ * Solution:
  * 
  * Value of an array A  is defined as the sum of (A(i)⊕i) for all 0≤i<L, where ⊕ denotes bitwise xor operation.
  * You are given an integer N and an array A consisting of 2^N integers where A(i)=i for all 0≤i<2^N.
