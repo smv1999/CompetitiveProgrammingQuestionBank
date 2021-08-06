@@ -1,4 +1,12 @@
 """
+Purpose:
+
+Implementation of Trie has been asked in my interviews like in Google
+Store word in Dictionary
+Search word in the dictionary returns True if exist
+Stores words in a compressed manner
+"""
+"""
 Inputs:
 1nd line no of word you want to store in Trie (int)
 2rd line to (2+1st line input)th line (string)
@@ -43,9 +51,24 @@ for j in range(n3):
     checks.append(input())
 
         
-dictionary = Trie()
+
+"""
+Time complexity :
+Insert: O(word Length)
+Search: O(word Length)
+
+Space complexity :
+Insert: O(1)
+Search: O(1)
+
+Storages required for storing words:
+if no word has same prefix the required (total word length+1)*(char size)
+
+"""
+dictionary = Trie() # Trie object created
+
 
 for k in words:
-    dictionary.add(k)
+    dictionary.add(k) # adding word in Trie from words list
 for k in checks:
-    print(dictionary.search(k))
+    print(dictionary.search(k)) # printing Searched word results if present then prints True if not present then returns False
