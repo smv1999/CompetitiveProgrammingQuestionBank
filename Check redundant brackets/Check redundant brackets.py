@@ -36,18 +36,19 @@ def checkRedundantBrackets(expression) :
   le = len(s)
   l=[]
   for i in range(le):
-    if s[i]=="(":
-      l.append("(")
-    elif s[i] in "+-*/":
-      l.append(s[i])
-    elif s[i] ==")":
-      if l[-1]=="(":
-          return True
-      elif l[-1] in "+-*/":
-        while l[-1]!="(":
-          l.pop()
-        l.pop()
-  return False
+    if s[i]=="(":  # checks open bracket
+      l.append("(") # put open brackets to stack
+    elif s[i] in "+-*/": #check char in the string
+      l.append(s[i])      #if it an operator then put it into the stack
+    elif s[i] ==")":       # checks close bracket
+      if l[-1]=="(":       # and if there is no operator in the stack
+          return True      # then its redundant and further code will not run
+      elif l[-1] in "+-*/":        # if it has operator 
+        
+        while l[-1]!="(":          # then pop till we don't get open bracket
+          l.pop()                  
+        l.pop()                     #pop open bracket
+  return False                      #it is false if no redundant bracket is found till end
 
 expression=input("Enter the expression:\n")
 print("output:")
