@@ -1,4 +1,25 @@
-	#include<bits/stdc++.h>
+// C++ program to find permutation of given string
+/* INPUT:
+2
+abc
+bcd
+Output:
+abc
+acb
+bac
+bca
+cba
+cab
+bcd
+bdc
+cbd
+cdb
+dcb
+dbc*/
+
+	
+
+#include<bits/stdc++.h>
 using namespace std;
 
       
@@ -47,4 +68,6 @@ int main()
 
 }
 }
+/*Time Complexity: O(n*n!)
+Space complexity:O(n)
 
