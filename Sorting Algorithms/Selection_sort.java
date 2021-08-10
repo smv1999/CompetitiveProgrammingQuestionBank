@@ -1,3 +1,16 @@
+/*
+    Selection Sort : The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part ( remaining part) and putting it at the beginning.
+    Time complexity 
+    
+    Best complexity    : O(n^2)
+    Average complexity : O(n^2)
+    Worst complexity   : O(n^2)
+    
+    Space complexity   : O(1)
+*/
+
+
+
 import java.util.Scanner;
 
 public class selection_sort
@@ -10,12 +23,12 @@ public class selection_sort
             min = i;
             for(j=i+1;j<n;j++)
             {
-                if(arr[j] < arr[min])
+                if(arr[j] < arr[min])  /* Finding minimum element from i+1 to n */
                 {
                     min = j;
                 }
             }
-            temp = arr[i];
+            temp = arr[i];   /* Swapping the minimum element with arr[i] (present array element) */
             arr[i] = arr[min];
             arr[min] = temp;
         }
