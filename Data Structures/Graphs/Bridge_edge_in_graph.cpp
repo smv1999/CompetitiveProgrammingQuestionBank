@@ -6,6 +6,7 @@ Given an undirected graph of V vertices and E edges and another edge (c-d), the 
 find if the given edge is a bridge in graph, i.e., removing the edge disconnects the graph.
 
 Link to the problem: https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1
+
 */
 
 #include<bits/stdc++.h>
@@ -74,12 +75,14 @@ int main()
 {
     int t;
     cin >> t;
-    while (t--) {
+    while (t--) 
+    {
         int V, E;
         cin >> V >> E;
         vector<int> adj[V];
         int i=0;
-        while (i++<E) {
+        while (i++<E) 
+        {
             int u, v;
             cin >> u >> v;
             adj[u].push_back (v);
