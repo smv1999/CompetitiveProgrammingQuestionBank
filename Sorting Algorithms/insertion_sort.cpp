@@ -3,7 +3,7 @@ Given an array, the elements of the array needs to be arranged in an increasing 
 
 Algorithm:
 1. Traverse the array and keep track of the element to be inserted at each stage.
-2. Store the element to be inserted in a varible.
+2. Store the element to be inserted in a variable.
 3. Shift the elements accordingly to make the array sorted.
 
 Input:

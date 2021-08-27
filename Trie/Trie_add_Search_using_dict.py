@@ -25,7 +25,7 @@ class Trie:
                 cur[ch] = {}  
             cur = cur[ch]    # now go to the key that was created or was present
         cur['*'] = True   # set * key to true at the end of each word
-        #so larger the word the dictionary nesting will take place and * key represant the end state of the word
+        #so larger the word the dictionary nesting will take place and * key represent the end state of the word
         
     def search(self,word): # This function searches whether the word is presant or not presant
         cur = self.root  #cur is iterator to check whether new key/paths are presant or not

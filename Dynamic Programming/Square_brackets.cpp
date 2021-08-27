@@ -31,7 +31,7 @@ LL sq_brackets(LL n, LL k, VLL pos)
 {
   vector<bool>h(2*n+1, 0);
   LL i;
-  rep(i, k) h[pos[i]]=1; // hash array ti store the postions where opening bracket is must
+  rep(i, k) h[pos[i]]=1; // hash array ti store the positions where opening bracket is must
   // dp array
   vector<vector<LL>>dp(2*n+1, vector<LL>(2*n+1, 0));
   // first position only one possible combination

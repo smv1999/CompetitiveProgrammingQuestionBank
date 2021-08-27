@@ -23,7 +23,7 @@ if __name__ == "__main__":
      matrix=[]
      for _ in range(n):
          li=list(map(int,input().split()))
-         if(valid(li,n)==False): # check wheather the given list is in valid adjacency matrix or not should contain 0's and 1's
+         if(valid(li,n)==False): # check whether the given list is in valid adjacency matrix or not should contain 0's and 1's
              print("Enter valid n*n matrix")
              exit # Terminate the program for incorrect details
          matrix.append(li)   
