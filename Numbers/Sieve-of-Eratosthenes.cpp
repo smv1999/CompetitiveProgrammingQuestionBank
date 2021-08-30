@@ -13,7 +13,7 @@ void sieve(){
     ll i,j;
     Prime[0]=Prime[1]=false;
 
-    //adding this otpimization will reduce n/2 computations
+    //adding this optimization will reduce n/2 computations
     //since even no.s are not prime
     for(i=2;i<N+1;i+=2)
         Prime[i]=false;

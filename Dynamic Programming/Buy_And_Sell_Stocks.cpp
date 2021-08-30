@@ -1,7 +1,7 @@
 /* problem statement
 first input is n representing the number of days 
 after that we have n values ,representing the price of stock on that day
-ouput should be maximum profit , if you can buy and sell only one time
+output should be maximum profit , if you can buy and sell only one time
 */
 
 #include <iostream>

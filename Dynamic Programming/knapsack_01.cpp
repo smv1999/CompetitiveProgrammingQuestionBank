@@ -34,7 +34,7 @@
 //      in the main code. whenever you are going in any condition, make the matrix on basis of the dimension of the varibale 
 //      inputs of the recurisie function. Here it will be W and n, make a matrix of W+1 and n+1 dimension and for every recurvie 
 //      return, instead, store that value insdie that matrix,  before going into any call, check if 
-//      the value foor that W and n is soomething else than the initalize mem set value of the matrix, if so directly return that   
+//      the value foor that W and n is something else than the initalize mem set value of the matrix, if so directly return that   
 
 
 

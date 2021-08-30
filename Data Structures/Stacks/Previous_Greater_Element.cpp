@@ -29,7 +29,7 @@ void printPrevGreater(int arr[],int n){
        previous greater element from 
        the current value and simply print
        it and if not found print -1.
-       NOTE : After every iteration whaterever the remaining element is 
+       NOTE : After every iteration whatever the remaining element is 
        present at the top is Previous Greater and if stack is empty
        then previous Greater is -1. 
     */
