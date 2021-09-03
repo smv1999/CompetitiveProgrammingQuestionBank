@@ -1,5 +1,5 @@
 /*
-We have to find all elements of power set of given set as string using bit  manipulation
+We have to find all elements of power set of given set as string using bit manipulation.
 
 
 Example 1:
