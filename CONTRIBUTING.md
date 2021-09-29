@@ -1,7 +1,10 @@
 ## Contributing Guidelines
 
-Developers are highly welcome to contribute to this project by modifying the existing solutions to more optimized solutions or add new programs that fit into the various categories
-mentioned in the repo or adding a new category if needed.
+Developers are highly welcome to contribute to this project by modifying the existing solutions to more optimized solutions or add new programs that fit into the various categories mentioned in the repo or adding a new category if needed.
+
+* Look at the issues created already and get yourself assigned for the issues by commenting there. Issues will be assigned on FCFS basis. 
+* Create a new issue whether you are adding a new program or optimizing the existing solution. After the issue is assigned to you, start working on it and make a pull request as mentioned in the steps below.
+* When creating a PR, make sure to add the linked issue in the description. For example : "Closes #133"
 
 1. Fork this repository
 1. Clone the repo ```git clone <YOUR_FORKED_REPO_URL>```
