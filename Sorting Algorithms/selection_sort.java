@@ -1,3 +1,9 @@
+/* In the following Java program, we ask user to enter the array elements or number, 
+then we compare the array's element and start swapping with the variable temp. 
+Put the first element in the temp and the second element in the first, 
+and then temp in the second number and continue for the next match to sort the whole
+array in ascending order. */
+
 import java.util.Scanner;  
   
 public class SelectionSortExample2  
@@ -8,13 +14,13 @@ public class SelectionSortExample2
        int arr[] = new int[50];  
        Scanner scan = new Scanner(System.in);  
          
-       System.out.print("Enter Array Size : ");  
+       System.out.print("Enter Array Size : ");  //  size of array taken from user.
        size = scan.nextInt();  
          
        System.out.print("Enter Array Elements : ");  
        for(i=0; i<size; i++)  
        {  
-           arr[i] = scan.nextInt();  
+           arr[i] = scan.nextInt();  // enter elements in array.
        }  
          
        System.out.print("Sorting Array using Selection Sort Technique..\n");  
@@ -34,7 +40,7 @@ public class SelectionSortExample2
        System.out.print("Now the Array after Sorting is :\n");  
        for(i=0; i<size; i++)  
        {  
-           System.out.print(arr[i]+ "  ");  
+           System.out.print(arr[i]+ "  ");  // printing the sorted array.
        }  
    }  
 }  
