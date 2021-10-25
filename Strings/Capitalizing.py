@@ -5,7 +5,7 @@ Aim: To replace the first character of all the words with their upper case chara
 
 # Complete the solve function below.
 def solve(s):
-    # spliiting the string into words
+    # splitting the string into words
     for x in s[:].split():
         # replacing the character with it's capital form
         s = s.replace(x, x.capitalize())

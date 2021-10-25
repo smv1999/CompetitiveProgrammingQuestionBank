@@ -10,7 +10,7 @@ input
 output
 10 57
 
-We consider two pointers i,j for travsersing the array only once making the time complexity of the algoirithm
+We consider two pointers i,j for traversing the array only once making the time complexity of the algoirithm
 to O(m+n) rather than O(m*n) for a brute force approach where m and n are the array sizes.
 */
 #include<stdio.h>
