@@ -6,7 +6,7 @@ This repository contains all the popular Competitive Programming questions and I
  [![Watchers](https://img.shields.io/github/watchers/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/watchers)
  ![Lines of code](https://img.shields.io/tokei/lines/github/smv1999/CompetitiveProgrammingQuestionBank?style=for-the-badge)
  <br><br>
-![CompetitiveProgrammingQuestionBank](https://socialify.git.ci/smv1999/CompetitiveProgrammingQuestionBank/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+![CompetitiveProgrammingQuestionBank](https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/cpqb.jpg)
 
 
 ## 📝Popular Questions:
