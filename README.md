@@ -63,6 +63,8 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 
 <p>DevIncept is a 30 day open source program helping the student community learn and contribute in various open source projects under the guidance of skilled mentors and project admins.</p>
 
+## ✨ Acknowledgement
+Thanks to all the [contributors](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTORS.md) for all their contributions.
 
 ## Stargazers Over Time 
 
