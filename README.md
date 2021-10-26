@@ -47,7 +47,7 @@ This repository contains all the popular Competitive Programming questions and I
 
   </details>
 
-## Want to Contribute to this repository?
+## 💥 How to Contribute?
 Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTING.md) to know more!
 
 ## Project Admin
