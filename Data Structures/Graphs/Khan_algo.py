@@ -1,7 +1,6 @@
 '''
-author :saurabh jain
-to find whether a graph has a cycle or not not
-if not than print the topological sorting for them
+to find whether a graph has a cycle or not
+if not then print the topological sorting for them
 '''
 from collections import defaultdict
 
