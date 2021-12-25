@@ -61,7 +61,7 @@ Head over to [Contributing Guidelines](https://github.com/smv1999/CompetitivePro
 ## Programs 
 <img src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif" alt="DevIncept" />
 
-<p>DevIncept is a 30 day open source program helping the student community learn and contribute in various open source projects under the guidance of skilled mentors and project admins.</p>
+<p>DevIncept is a 30 day open source program helping the student community learn and contribute in various open source projects under the guidance of skilled mentors and project admins.<br> This project was a part of DevIncept 2021.</p>
 
 ## ✨ Acknowledgement
 Thanks to all the [contributors](https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTORS.md) for all their contributions.
